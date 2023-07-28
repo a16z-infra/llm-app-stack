@@ -19,6 +19,12 @@ This is a list of available tools, projects, and vendors at each layer of the LL
 | [Airflow](https://airflow.apache.org/) | A platform to programmatically author, schedule, and monitor workflows | ![GitHub Repo stars](https://img.shields.io/github/stars/apache/airflow?style=social) | <a href=https://pypi.org/project/apache-airflow><img src="https://img.shields.io/pypi/dw/apache-airflow" width=150/></a> | <a href=https://www.npmjs.com/package/@backstage/plugin-apache-airflow><img src="https://img.shields.io/npm/dw/@backstage/plugin-apache-airflow" width=150/></a> |
 | [Unstructured.io](https://unstructured.io/) | Open-source components for pre-processing text documents such as PDFs, HTML and Word Documents | ![Unstructured-IO/unstructured](https://img.shields.io/github/stars/Unstructured-IO/unstructured?style=social) | <a href=https://pypi.org/project/unstructured><img src="https://img.shields.io/pypi/dw/unstructured" width=150/></a> | n/a |
 
+| Name (site) | Description | Github | Pip Installs |
+| --- | --- | --- | --- |
+| [Databricks](https://databricks.com/) | A unified set of tools for building, deploying, sharing, and maintaining enterprise-grade data solutions at scale | ![GitHub Repo stars](https://img.shields.io/github/stars/apache/spark?style=social) | <a href=https://pypi.org/project/pyspark><img src="https://img.shields.io/pypi/dw/pyspark" width=150/></a> |
+| [Airflow](https://airflow.apache.org/) | A platform to programmatically author, schedule, and monitor workflows | ![GitHub Repo stars](https://img.shields.io/github/stars/apache/airflow?style=social) | <a href=https://pypi.org/project/apache-airflow><img src="https://img.shields.io/pypi/dw/apache-airflow" width=150/></a> |
+| [Unstructured.io](https://unstructured.io/) | Open-source components for pre-processing text documents such as PDFs, HTML and Word Documents | ![Unstructured-IO/unstructured](https://img.shields.io/github/stars/Unstructured-IO/unstructured?style=social) | <a href=https://pypi.org/project/unstructured><img src="https://img.shields.io/pypi/dw/unstructured" width=150/></a> |
+
 
 ### Embedding Model
 | Name | Description | Website | Github | Pip Installs | Npm Downloads |
