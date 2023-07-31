@@ -34,6 +34,7 @@ Our [original article](https://a16z.com/2023/06/20/emerging-architectures-for-ll
 | [Databricks](https://databricks.com/) | A unified set of tools for building, deploying, sharing, and maintaining enterprise-grade data solutions at scale | ![GitHub Repo stars](https://img.shields.io/github/stars/apache/spark?style=social) | <a href=https://pypi.org/project/pyspark><img src="https://img.shields.io/pypi/dw/pyspark" width=150/></a> |
 | [Airflow](https://airflow.apache.org/) | A platform to programmatically author, schedule, and monitor data pipelines & workflows | ![GitHub Repo stars](https://img.shields.io/github/stars/apache/airflow?style=social) | <a href=https://pypi.org/project/apache-airflow><img src="https://img.shields.io/pypi/dw/apache-airflow" width=150/></a> |
 | [Unstructured.io](https://unstructured.io/) | Open-source components for pre-processing text documents such as PDFs, HTML and Word Documents for usage with LLM apps | ![Unstructured-IO/unstructured](https://img.shields.io/github/stars/Unstructured-IO/unstructured?style=social) | <a href=https://pypi.org/project/unstructured><img src="https://img.shields.io/pypi/dw/unstructured" width=150/></a> |
+| [Fivetran](https://www.fivetran.com/) | A trusted platform that extracts, loads, and transforms data from various sources for analytics or operations [2][7] | N/A | <a href=https://pypi.org/project/fivetran><img src="https://img.shields.io/pypi/dw/fivetran" width=150/></a> |
 
 
 ### Embedding Model
@@ -57,7 +58,7 @@ Our [original article](https://a16z.com/2023/06/20/emerging-architectures-for-ll
 ### Playground
 | Name (site) | Description | Github | Pip Installs |
 | --- | --- | --- | --- |
-| [OpenAI Playground](https://platform.openai.com/) | A web-based platform for experimenting with various machine-learning models developed by OpenAI | !n/a | n/a |
+| [OpenAI Playground](https://platform.openai.com/) | A web-based platform for experimenting with various machine-learning models developed by OpenAI | N/A | N/A |
 | [nat.dev](https://nat.dev) | A platform that allows users to test prompts with multiple language models, both commercial and open-source, and compare their performance | ![nat/openplayground](https://img.shields.io/github/stars/nat/openplayground?style=social) | <a href=https://pypi.org/project/openplayground><img src="https://img.shields.io/pypi/dw/openplayground" width=150/></a> |
 | [Humanloop](https://humanloop.com/) | A platform that helps developers build high-performing applications on top of large language models like GPT-3, with tools for experimenting, collecting data, and fine-tuning models | ![humanloop/humanloop-tutorial-python](https://img.shields.io/github/stars/humanloop/humanloop-tutorial-python?style=social) | <a href=https://pypi.org/project/humanloop><img src="https://img.shields.io/pypi/dw/humanloop" width=150/></a> |
 
@@ -67,6 +68,9 @@ Our [original article](https://a16z.com/2023/06/20/emerging-architectures-for-ll
 | --- | --- | --- | --- |
 | [Langchain](https://langchain.com/) | An open-source library that provides developers with the tools to build applications powered by large language models (LLMs) | ![langchain-ai/langchain](https://img.shields.io/github/stars/langchain-ai/langchain?style=social) | <a href=https://pypi.org/project/langchain><img src="https://img.shields.io/pypi/dw/langchain" width=150/></a> |
 | [LlamaIndex](https://llamaindex.ai/) | A data framework for LLM applications to ingest, structure, and access private or domain-specific data | ![jerryjliu/llama_index](https://img.shields.io/github/stars/jerryjliu/llama_index?style=social) | <a href=https://pypi.org/project/llama-index><img src="https://img.shields.io/pypi/dw/llama-index" width=150/></a> |
+| [Microsoft Semantic Kernel](https://github.com/microsoft/semantic-kernel) | A lightweight open-source orchestration SDK that lets you easily mix-and-match AI prompts with conventional programming languages like C and Python [1] | ![microsoft/semantic-kernel](https://img.shields.io/github/stars/microsoft/semantic-kernel?style=social) | <a href=https://pypi.org/project/semantic-kernel><img src="https://img.shields.io/pypi/dw/semantic-kernel" width=150/></a> |
+| [Vercel AI SDK](https://sdk.vercel.ai/docs) | An open-source library designed to help developers build conversational streaming user interfaces in JavaScript and TypeScript [4] | ![vercel/ai](https://img.shields.io/github/stars/vercel-labs/ai?style=social) | <a href=https://pypi.org/project/vercel-ai-sdk><img src="https://img.shields.io/npm/dw/ai" width=150/></a>(node/npm)|
+| [Vectara AI](https://vectara.com/) | A GenAI conversational search and discovery platform that allows businesses to have intelligent conversations utilizing their own data | ![vectara/vectara-ingest](https://img.shields.io/github/stars/vectara/vectara-ingest?style=social) | N/A |
 | [ChatGPT](https://chat.openai.com) | An AI chatbot that uses natural language processing to create humanlike conversational dialogue | | |
 
 ### APIs / Plugins
@@ -90,6 +94,7 @@ Our [original article](https://a16z.com/2023/06/20/emerging-architectures-for-ll
 | [MLflow](https://mlflow.org/docs/latest/llm-tracking.html) | A platform to streamline machine learning development, including tracking experiments, packaging code, and sharing models | ![mlflow/mlflow](https://img.shields.io/github/stars/mlflow/mlflow?style=social) | <a href=https://pypi.org/project/mlflow><img src="https://img.shields.io/pypi/dw/mlflow" width=150/></a> |
 | [PromptLayer](https://promptlayer.com/) | A platform for tracking, managing, and sharing GPT prompt engineering | ![MagnivOrg/prompt-layer-library](https://img.shields.io/github/stars/MagnivOrg/prompt-layer-library?style=social) | <a href=https://pypi.org/project/promptlayer><img src="https://img.shields.io/pypi/dw/promptlayer" width=150/></a> |
 | [Helicone](https://helicone.ai/) | An open-source observability platform for Language Learning Models (LLMs) | ![Helicone/helicone](https://img.shields.io/github/stars/Helicone/helicone?style=social) | <a href=https://pypi.org/project/helicone><img src="https://img.shields.io/pypi/dw/helicone" width=150/></a> |
+| [Arize AI](https://arize.com/) | A Machine Learning Observability platform that helps ML practitioners successfully take models from research to production, with ease| ![Arize-ai](https://img.shields.io/github/stars/Arize-ai?style=social) | <a href=https://pypi.org/project/arize><img src="https://img.shields.io/pypi/dw/arize" width=150/></a> |
 
 ### Validation
 | Name (site) | Description | Github | Pip Installs |
