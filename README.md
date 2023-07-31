@@ -4,7 +4,29 @@
 
 ![llm-app-stack](https://github.com/a16z-infra/llm-app-stack/assets/26883865/92734642-9651-4aaa-a803-79a6cf5414ef)
 
-This is a list of available tools, projects, and vendors at each layer of the LLM app stack. Our [original article](https://a16z.com/2023/06/20/emerging-architectures-for-llm-applications/) included only the most popular tools based on user interviews. This repo attempts to be comprehensive, covering all options in each category. If you see anything missing from list, or miscategorized, please open a PR!
+This is a list of available tools, projects, and vendors at each layer of the LLM app stack. 
+
+Our [original article](https://a16z.com/2023/06/20/emerging-architectures-for-llm-applications/) included only the most popular tools based on user interviews prior to publication (June 20th 2023). This repo, instead, attempts to be comprehensive, covering all options in each category. If you see anything missing from list, or miscategorized, please open a PR!
+
+
+## Table of Contents
+1. [Data Pipelines](#data-pipelines)
+2. [Embedding Model](#embedding-model)
+3. [Vector Database](#vector-database)
+4. [Playground](#playground)
+5. [Orchestration](#orchestration)
+6. [APIs / Plugins](#apis--plugins)
+7. [LLM Cache](#llm-cache)
+8. [Logging / LLMops](#logging--llmops)
+9. [Validation](#validation)
+10. [App Hosting](#app-hosting)
+11. [LLM APIs (proprietary)](#llm-apis-proprietary)
+12. [LLM APIs (open source)](#llm-apis-open-source)
+13. [Cloud Providers](#cloud-providers)
+14. [Opinionated Clouds](#opinionated-clouds)
+
+
+## Comprehensive tool list
 
 ### Data Pipelines
 | Name (site) | Description | Github | Pip Installs |
@@ -17,9 +39,9 @@ This is a list of available tools, projects, and vendors at each layer of the LL
 ### Embedding Model
 | Name (site) | Description | Github | Pip Installs |
 | --- | --- | --- | --- |
-| [Open AI Embedding Ada 2](https://platform.openai.com/docs/guides/embeddings) | A powerful text embedding model for capturing semantic relationships in text | n/a | <a href=https://pypi.org/project/openai><img src="https://img.shields.io/pypi/dw/openai" width=150/></a> |
-| [Cohere AI Embeddings](https://cohere.com/) | Generate text embeddings with large language models for semantic search, topic clustering, and more | ![cohere-ai/notebooks](https://img.shields.io/github/stars/cohere-ai/notebooks?style=social)| <a href=https://pypi.org/project/cohere><img src="https://img.shields.io/pypi/dw/cohere" width=150/></a> |
-| [Sentence Transformer embeddings](https://huggingface.co/) | A Python framework for state-of-the-art sentence, text, and image embeddings | ![UKPLab/sentence-transformers](https://img.shields.io/github/stars/UKPLab/sentence-transformers?style=social) | <a href=https://pypi.org/project/sentence-transformers><img src="https://img.shields.io/pypi/dw/sentence-transformers" width=150/></a> |
+| [Open AI  Ada 2](https://platform.openai.com/docs/guides/embeddings) | A powerful text embedding model for capturing semantic relationships in text | n/a | <a href=https://pypi.org/project/openai><img src="https://img.shields.io/pypi/dw/openai" width=150/></a> |
+| [Cohere AI](https://docs.cohere.com/docs/embeddings) | Generate text embeddings with large language models for semantic search, topic clustering, and more | ![cohere-ai/notebooks](https://img.shields.io/github/stars/cohere-ai/notebooks?style=social)| <a href=https://pypi.org/project/cohere><img src="https://img.shields.io/pypi/dw/cohere" width=150/></a> |
+| [Sentence Transformers](https://huggingface.co/) | A Python framework for state-of-the-art sentence, text, and image embeddings | ![UKPLab/sentence-transformers](https://img.shields.io/github/stars/UKPLab/sentence-transformers?style=social) | <a href=https://pypi.org/project/sentence-transformers><img src="https://img.shields.io/pypi/dw/sentence-transformers" width=150/></a> |
 
 
 
@@ -35,8 +57,8 @@ This is a list of available tools, projects, and vendors at each layer of the LL
 ### Playground
 | Name (site) | Description | Github | Pip Installs |
 | --- | --- | --- | --- |
-| [OpenAI Model Playground](https://platform.openai.com/) | A web-based platform for experimenting with various machine-learning models developed by OpenAI | !n/a | n/a |
-| [nat.dev Model Playground](https://nat.dev) | A platform that allows users to test prompts with multiple language models, both commercial and open-source, and compare their performance | ![nat/openplayground](https://img.shields.io/github/stars/nat/openplayground?style=social) | <a href=https://pypi.org/project/openplayground><img src="https://img.shields.io/pypi/dw/openplayground" width=150/></a> |
+| [OpenAI Playground](https://platform.openai.com/) | A web-based platform for experimenting with various machine-learning models developed by OpenAI | !n/a | n/a |
+| [nat.dev](https://nat.dev) | A platform that allows users to test prompts with multiple language models, both commercial and open-source, and compare their performance | ![nat/openplayground](https://img.shields.io/github/stars/nat/openplayground?style=social) | <a href=https://pypi.org/project/openplayground><img src="https://img.shields.io/pypi/dw/openplayground" width=150/></a> |
 | [Humanloop](https://humanloop.com/) | A platform that helps developers build high-performing applications on top of large language models like GPT-3, with tools for experimenting, collecting data, and fine-tuning models | ![humanloop/humanloop-tutorial-python](https://img.shields.io/github/stars/humanloop/humanloop-tutorial-python?style=social) | <a href=https://pypi.org/project/humanloop><img src="https://img.shields.io/pypi/dw/humanloop" width=150/></a> |
 
 
@@ -103,8 +125,3 @@ This is a list of available tools, projects, and vendors at each layer of the LL
 - Mosaic (https://mosaicml.com)
 - Modal (https://modal.com)
 - Runpod (https://runpod.io/)
-
-
-Criteria for inclusion and contribution guide
-
-
