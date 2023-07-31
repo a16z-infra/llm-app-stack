@@ -105,8 +105,9 @@ Our [original article](https://a16z.com/2023/06/20/emerging-architectures-for-ll
 | [LMQL](https://lmql.ai/) | An open-source programming language and platform for language model interaction, designed to make working with language models like OpenAI more expressive and accessible | ![eth-sri/lmql](https://img.shields.io/github/stars/eth-sri/lmql?style=social) | <a href=https://pypi.org/project/lmql><img src="https://img.shields.io/pypi/dw/lmql" width=150/></a> |
 
 ### App Hosting
-- Vercel (https://vercel.com/)
 - Steamship (https://steamship.com/)
+- Netlify (https://www.netlify.com/)
+- Vercel (https://vercel.com/)
 - Streamlit (https://streamlit.io/)
 - Modal (https://modal.com)
 
@@ -130,3 +131,4 @@ Our [original article](https://a16z.com/2023/06/20/emerging-architectures-for-ll
 - Mosaic (https://mosaicml.com)
 - Modal (https://modal.com)
 - Runpod (https://runpod.io/)
+- OctoML (https://octoml.ai/)
