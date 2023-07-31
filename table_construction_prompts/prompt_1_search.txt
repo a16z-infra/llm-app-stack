@@ -1,15 +1,8 @@
 *** Original Table ***
-{ORIGNAL TABLE}
-
-*** Formatting changes ***
-PLEASE MAKE THE ORIGINAL TABLE MATCH THE FORMATTING BELOW:
 | Name (site) | Description | Github | Pip Installs |
 | --- | --- | --- | --- |
-| [Databricks](https://databricks.com/) | A unified set of tools for building, deploying, sharing, and maintaining enterprise-grade data solutions at scale | ![GitHub Repo stars](https://img.shields.io/github/stars/apache/spark?style=social) | <a href=https://pypi.org/project/pyspark><img src="https://img.shields.io/pypi/dw/pyspark" width=150/></a> |
-
-SPECIFICALLY, DO THE FOLLOWING:
-- merge the website column into the name column
-- remove the npm column
+<<<---- SUBTITUE COMPANY NAME AND WEBSITE BELOW AND REMOVE THIS LINE FROM PROMPT ---->>>> 
+| [Microsoft Semantic Kernel](https://github.com/microsoft/semantic-kernel) | description | github repo| pip package |
 
 *** data retrieval task ***
 PLease look up the descriptions, as well as most relevant github repo, pip packagefor each row and then fill in the data return the filled table. Descriptions are often easily found on the page of the link I am already including in the table above 
