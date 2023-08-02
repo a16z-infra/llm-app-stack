@@ -2,7 +2,7 @@
 
 *aka Emerging Architectures for LLM Applications*
 
-![llm-app-stack](https://github.com/a16z-infra/llm-app-stack/assets/26883865/92734642-9651-4aaa-a803-79a6cf5414ef)
+![2657 Emerging LLM App Stack R2 Clean](https://github.com/a16z-infra/llm-app-stack/assets/26883865/9363af72-9d44-4c62-ad90-007234b5b791)
 
 This is a list of available tools, projects, and vendors at each layer of the LLM app stack. 
 
