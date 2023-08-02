@@ -26,7 +26,7 @@ Our [original article](https://a16z.com/2023/06/20/emerging-architectures-for-ll
 14. [Opinionated Clouds](#opinionated-clouds)
 
 
-## Comprehensive tool list
+## Project List
 
 ### Data Pipelines
 | Name (site) | Description | Github | Pip Installs |
