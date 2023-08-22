@@ -19,9 +19,9 @@ Our [original article](https://a16z.com/2023/06/20/emerging-architectures-for-ll
 7. [LLM Cache](#llm-cache)
 8. [Logging / LLMops](#logging--llmops)
 9. [Validation](#validation)
-10. [App Hosting](#app-hosting)
-11. [LLM APIs (proprietary)](#llm-apis-proprietary)
-12. [LLM APIs (open source)](#llm-apis-open-source)
+10. [LLM APIs (proprietary)](#llm-apis-proprietary)
+11. [LLM APIs (open source)](#llm-apis-open-source)
+12. [App Hosting](#app-hosting)
 13. [Cloud Providers](#cloud-providers)
 14. [Opinionated Clouds](#opinionated-clouds)
 
@@ -30,7 +30,7 @@ Our [original article](https://a16z.com/2023/06/20/emerging-architectures-for-ll
 
 ### Data Pipelines
 | Name (site) | Description | Github | Pip Installs |
-| --- | --- | --- | --- |
+|------------|------------|------------|------------|
 | [Databricks](https://databricks.com/) | A unified set of tools for building, deploying, sharing, and maintaining enterprise data solutions | ![GitHub Repo stars](https://img.shields.io/github/stars/apache/spark?style=social) | <a href=https://pypi.org/project/pyspark><img src="https://img.shields.io/pypi/dw/pyspark" width=150/></a> |
 | [Airflow](https://airflow.apache.org/) | A platform to programmatically author, schedule, and monitor data pipelines & workflows | ![GitHub Repo stars](https://img.shields.io/github/stars/apache/airflow?style=social) | <a href=https://pypi.org/project/apache-airflow><img src="https://img.shields.io/pypi/dw/apache-airflow" width=150/></a> |
 | [Unstructured.io](https://unstructured.io/) | Open-source components for pre-processing documents such as PDFs, HTML and Word Documents for usage with LLM apps | ![Unstructured-IO/unstructured](https://img.shields.io/github/stars/Unstructured-IO/unstructured?style=social) | <a href=https://pypi.org/project/unstructured><img src="https://img.shields.io/pypi/dw/unstructured" width=150/></a> |
@@ -39,7 +39,7 @@ Our [original article](https://a16z.com/2023/06/20/emerging-architectures-for-ll
 
 ### Embedding Model
 | Name (site) | Description | Github | Pip Installs |
-| --- | --- | --- | --- |
+|------------|------------|------------|------------|
 | [Open AI Ada Embedding 2](https://platform.openai.com/docs/guides/embeddings) | A text embedding model for capturing semantic relationships in text | n/a | <a href=https://pypi.org/project/openai><img src="https://img.shields.io/pypi/dw/openai" width=150/></a> |
 | [Cohere AI](https://docs.cohere.com/docs/embeddings) | Generate text embeddings with large language models for semantic search, topic clustering, etc. | ![cohere-ai/notebooks](https://img.shields.io/github/stars/cohere-ai/notebooks?style=social)| <a href=https://pypi.org/project/cohere><img src="https://img.shields.io/pypi/dw/cohere" width=150/></a> |
 | [Sentence Transformers](https://huggingface.co/) | A Python framework for sentence, text, and image embeddings | ![UKPLab/sentence-transformers](https://img.shields.io/github/stars/UKPLab/sentence-transformers?style=social) | <a href=https://pypi.org/project/sentence-transformers><img src="https://img.shields.io/pypi/dw/sentence-transformers" width=150/></a> |
@@ -48,7 +48,7 @@ Our [original article](https://a16z.com/2023/06/20/emerging-architectures-for-ll
 
 ### Vector Database
 | Name (site) | Description | Github | Pip Installs |
-| --- | --- | --- | --- |
+|------------|------------|------------|------------|
 | [Pinecone](https://pinecone.io/) | A managed, cloud-native vector database with a simple API for high-performance AI applications | n/a | <a href=https://pypi.org/project/pinecone-client><img src="https://img.shields.io/pypi/dw/pinecone-client" width=150/></a> |
 | [Weaviate](https://weaviate.io/) | An open-source vector database that stores both objects and vectors, allowing for combining vector search with structured filtering | ![semi-technologies/weaviate](https://img.shields.io/github/stars/semi-technologies/weaviate?style=social) | <a href=https://pypi.org/project/weaviate-client><img src="https://img.shields.io/pypi/dw/weaviate-client" width=150/></a> |
 | [ChromaDB](https://trychroma.com/) | An AI-native open-source embedding database platform for developers to add state and memory to their AI-enabled applications | ![chroma-core/chroma](https://img.shields.io/github/stars/chroma-core/chroma?style=social) | <a href=https://pypi.org/project/chromadb><img src="https://img.shields.io/pypi/dw/chromadb" width=150/></a> |
@@ -57,7 +57,7 @@ Our [original article](https://a16z.com/2023/06/20/emerging-architectures-for-ll
 
 ### Playground
 | Name (site) | Description | Github | Pip Installs |
-| --- | --- | --- | --- |
+|------------|------------|------------|------------|
 | [OpenAI Playground](https://platform.openai.com/) | A web-based platform for experimenting with various machine-learning models developed by OpenAI | N/A | N/A |
 | [nat.dev](https://nat.dev) | A platform that allows users to test prompts with multiple language models, both commercial and open-source, and compare their performance | ![nat/openplayground](https://img.shields.io/github/stars/nat/openplayground?style=social) | <a href=https://pypi.org/project/openplayground><img src="https://img.shields.io/pypi/dw/openplayground" width=150/></a> |
 | [Humanloop](https://humanloop.com/) | A platform that helps developers build applications on top of large language models like GPT-3, with tools for experimenting, collecting data, and fine-tuning models | ![humanloop/humanloop-tutorial-python](https://img.shields.io/github/stars/humanloop/humanloop-tutorial-python?style=social) | <a href=https://pypi.org/project/humanloop><img src="https://img.shields.io/pypi/dw/humanloop" width=150/></a> |
@@ -65,31 +65,31 @@ Our [original article](https://a16z.com/2023/06/20/emerging-architectures-for-ll
 
 ### Orchestration
 | Name (site) | Description | Github | Pip Installs |
-| --- | --- | --- | --- |
+|------------|------------|------------|------------|
 | [Langchain](https://langchain.com/) | An open-source library that provides developers with the tools to build applications powered by large language models (LLMs) | ![langchain-ai/langchain](https://img.shields.io/github/stars/langchain-ai/langchain?style=social) | <a href=https://pypi.org/project/langchain><img src="https://img.shields.io/pypi/dw/langchain" width=150/></a> |
 | [LlamaIndex](https://llamaindex.ai/) | A data framework for LLM applications to ingest, structure, and access private or domain-specific data | ![jerryjliu/llama_index](https://img.shields.io/github/stars/jerryjliu/llama_index?style=social) | <a href=https://pypi.org/project/llama-index><img src="https://img.shields.io/pypi/dw/llama-index" width=150/></a> |
 | [Microsoft Semantic Kernel](https://github.com/microsoft/semantic-kernel) | A lightweight open-source orchestration SDK that lets you mix-and-match AI prompts with conventional programming languages like C and Python | ![microsoft/semantic-kernel](https://img.shields.io/github/stars/microsoft/semantic-kernel?style=social) | <a href=https://pypi.org/project/semantic-kernel><img src="https://img.shields.io/pypi/dw/semantic-kernel" width=150/></a> |
-| [Vercel AI SDK](https://sdk.vercel.ai/docs) | An open-source library designed to help developers build conversational streaming user interfaces in JavaScript and TypeScript [4] | ![vercel/ai](https://img.shields.io/github/stars/vercel-labs/ai?style=social) | <a href=https://pypi.org/project/vercel-ai-sdk><img src="https://img.shields.io/npm/dw/ai" width=150/></a>(node/npm)|
+| [Vercel AI SDK](https://sdk.vercel.ai/docs) | An open-source library designed to help developers build conversational streaming user interfaces in JavaScript and TypeScript | ![vercel/ai](https://img.shields.io/github/stars/vercel-labs/ai?style=social) | <a href=https://pypi.org/project/vercel-ai-sdk><img src="https://img.shields.io/npm/dw/ai" width=150/></a>(node/npm)|
 | [Vectara AI](https://vectara.com/) | A GenAI conversational search and discovery platform that allows businesses to have intelligent conversations utilizing their own data | ![vectara/vectara-ingest](https://img.shields.io/github/stars/vectara/vectara-ingest?style=social) | N/A |
 | [ChatGPT](https://chat.openai.com) | An AI chatbot that uses natural language processing to create humanlike conversational dialogue | | |
 
 ### APIs / Plugins
 | Name (site) | Description | Github | Pip Installs |
-| --- | --- | --- | --- |
+|------------|------------|------------|------------|
 | [Serp API](https://serpapi.com/) | A real-time API to access Google search results, handling proxies, captchas, and parsing structured data | ![serpapi/google-search-results](https://img.shields.io/github/stars/serpapi/google-search-results-python?style=social) | <a href=https://pypi.org/project/google-search-results><img src="https://img.shields.io/pypi/dw/google-search-results" width=150/></a> |
 | [Wolfram Alpha API](https://wolframalpha.com/) | A web-based API providing computational and presentation capabilities for integration into various applications | N/A | <a href=https://pypi.org/project/wolframalpha><img src="https://img.shields.io/pypi/dw/wolframalpha" width=150/></a> |
 | [Zapier API AI Plugin](https://zapier.com/) | A plugin that allows you to connect 5,000+ apps and interact with them directly inside ChatGPT | N/A | N/A |
 
 ### LLM Cache
 | Name (site) | Description | Github | Pip Installs |
-| --- | --- | --- | --- |
+|------------|------------|------------|------------|
 | [Redis](https://redis.io/) | An in-memory data structure store used as a database, cache, message broker, and streaming engine | ![redis/redis](https://img.shields.io/github/stars/redis/redis?style=social) | <a href=https://pypi.org/project/redis/><img src="https://img.shields.io/pypi/dw/redis" width=150/></a> |
 | [SQLite](https://sqlite.org/) | A self-contained, serverless, zero-configuration, transactional SQL database engine | ![sqlite/sqlite](https://img.shields.io/github/stars/sqlite/sqlite?style=social) | <a href=https://pypi.org/project/pysqlite3/><img src="https://img.shields.io/pypi/dw/pysqlite3" width=150/></a> |
 | [GPTCache](https://github.com/zilliztech/GPTCache) | An open-source tool designed to improve the efficiency and speed of GPT-based applications by implementing a cache to store the responses | ![zilliztech/GPTCache](https://img.shields.io/github/stars/zilliztech/GPTCache?style=social) | N/A |
 
 ### Logging / LLMops
 | Name (site) | Description | Github | Pip Installs |
-| --- | --- | --- | --- |
+|------------|------------|------------|------------|
 | [Weights & Biases](https://wandb.ai) | A developer-first MLOps platform for streamlining ML workflows | ![wandb/wandb](https://img.shields.io/github/stars/wandb/wandb?style=social) | <a href=https://pypi.org/project/wandb><img src="https://img.shields.io/pypi/dw/wandb" width=150/></a> |
 | [MLflow](https://mlflow.org/docs/latest/llm-tracking.html) | A platform to streamline machine learning development, including tracking experiments, packaging code, and sharing models | ![mlflow/mlflow](https://img.shields.io/github/stars/mlflow/mlflow?style=social) | <a href=https://pypi.org/project/mlflow><img src="https://img.shields.io/pypi/dw/mlflow" width=150/></a> |
 | [PromptLayer](https://promptlayer.com/) | A platform for tracking, managing, and sharing GPT prompt engineering | ![MagnivOrg/prompt-layer-library](https://img.shields.io/github/stars/MagnivOrg/prompt-layer-library?style=social) | <a href=https://pypi.org/project/promptlayer><img src="https://img.shields.io/pypi/dw/promptlayer" width=150/></a> |
@@ -98,7 +98,7 @@ Our [original article](https://a16z.com/2023/06/20/emerging-architectures-for-ll
 
 ### Validation
 | Name (site) | Description | Github | Pip Installs |
-| --- | --- | --- | --- |
+|------------|------------|------------|------------|
 | [Guardrails AI](https://shreyar.github.io/guardrails/) | An open-source Python package for specifying structure and type, validating and correcting the outputs of large language models (LLMs) | ![ShreyaR/guardrails](https://img.shields.io/github/stars/ShreyaR/guardrails?style=social) | <a href=https://pypi.org/project/guardrails-ai><img src="https://img.shields.io/pypi/dw/guardrails-ai" width=150/></a> |
 | [Rebuff](https://github.com/woop/rebuff) | An open-source framework designed to detect and protect against prompt injection attacks in Language Learning Model (LLM) applications | ![woop/rebuff](https://img.shields.io/github/stars/woop/rebuff?style=social) | <a href=https://pypi.org/project/rebuff><img src="https://img.shields.io/pypi/dw/rebuff" width=150/></a> |
 | [Microsoft Guidance](https://github.com/microsoft/guidance) | A guidance language for controlling large language models, providing a simple and comprehensive syntax for architecting complex LLM workflows | ![microsoft/guidance](https://img.shields.io/github/stars/microsoft/guidance?style=social) | <a href=https://pypi.org/project/guidance><img src="https://img.shields.io/pypi/dw/guidance" width=150/></a> |
@@ -107,14 +107,14 @@ Our [original article](https://a16z.com/2023/06/20/emerging-architectures-for-ll
 
 ### LLM APIs (proprietary)
 | Name (site) | Description | Github | Pip Installs |
-| --- | --- | --- | --- |
+|------------|------------|------------|------------|
 | [OpenAI](https://openai.com) | An AI research and deployment company with a mission to ensure that artificial general intelligence benefits all of humanity | N/A | <a href=https://pypi.org/project/openai><img src="https://img.shields.io/pypi/dw/openai" width=150/></a> |
 | [Anthropic](https://anthropic.com) | Claude is an AI assistant based on Anthropic’s research into training helpful, honest, and harmless AI systems. The model is capable of a wide variety of conversational and text processing tasks. | N/A | <a href=https://pypi.org/project/anthropic><img src="https://img.shields.io/pypi/dw/anthropic" width=150/></a> |
 | [Cohere AI](https://docs.cohere.com/docs/embeddings) | Generate text embeddings with large language models for semantic search, topic clustering, etc. | ![cohere-ai/notebooks](https://img.shields.io/github/stars/cohere-ai/notebooks?style=social)| <a href=https://pypi.org/project/cohere><img src="https://img.shields.io/pypi/dw/cohere" width=150/></a> |
 
 ### LLM APIs (open source)
 | Name (site) | Description | Github | Pip Installs |
-| --- | --- | --- | --- |
+|------------|------------|------------|------------|
 | [HuggingFace](https://huggingface.co/) | An open source data science and machine learning platform that acts as a hub for AI experts and enthusiasts |  ![huggingface/transformers](https://img.shields.io/github/stars/huggingface/transformers?style=social) | <a href=https://pypi.org/project/transformers><img src="https://img.shields.io/pypi/dw/transformers" width=150/></a> |
 | [Replicate](https://replicate.com/) | (No description found) | ![replicate/cog](https://img.shields.io/github/stars/replicate/cog?style=social) | <a href=https://pypi.org/project/replicate><img src="https://img.shields.io/pypi/dw/replicate" width=150/></a> |
 
