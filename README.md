@@ -31,18 +31,18 @@ Our [original article](https://a16z.com/2023/06/20/emerging-architectures-for-ll
 ### Data Pipelines
 | Name (site) | Description | Github | Pip Installs |
 | --- | --- | --- | --- |
-| [Databricks](https://databricks.com/) | A unified set of tools for building, deploying, sharing, and maintaining enterprise-grade data solutions at scale | ![GitHub Repo stars](https://img.shields.io/github/stars/apache/spark?style=social) | <a href=https://pypi.org/project/pyspark><img src="https://img.shields.io/pypi/dw/pyspark" width=150/></a> |
+| [Databricks](https://databricks.com/) | A unified set of tools for building, deploying, sharing, and maintaining enterprise data solutions | ![GitHub Repo stars](https://img.shields.io/github/stars/apache/spark?style=social) | <a href=https://pypi.org/project/pyspark><img src="https://img.shields.io/pypi/dw/pyspark" width=150/></a> |
 | [Airflow](https://airflow.apache.org/) | A platform to programmatically author, schedule, and monitor data pipelines & workflows | ![GitHub Repo stars](https://img.shields.io/github/stars/apache/airflow?style=social) | <a href=https://pypi.org/project/apache-airflow><img src="https://img.shields.io/pypi/dw/apache-airflow" width=150/></a> |
-| [Unstructured.io](https://unstructured.io/) | Open-source components for pre-processing text documents such as PDFs, HTML and Word Documents for usage with LLM apps | ![Unstructured-IO/unstructured](https://img.shields.io/github/stars/Unstructured-IO/unstructured?style=social) | <a href=https://pypi.org/project/unstructured><img src="https://img.shields.io/pypi/dw/unstructured" width=150/></a> |
-| [Fivetran](https://www.fivetran.com/) | A trusted platform that extracts, loads, and transforms data from various sources for analytics or operations [2][7] | N/A | <a href=https://pypi.org/project/fivetran><img src="https://img.shields.io/pypi/dw/fivetran" width=150/></a> |
+| [Unstructured.io](https://unstructured.io/) | Open-source components for pre-processing documents such as PDFs, HTML and Word Documents for usage with LLM apps | ![Unstructured-IO/unstructured](https://img.shields.io/github/stars/Unstructured-IO/unstructured?style=social) | <a href=https://pypi.org/project/unstructured><img src="https://img.shields.io/pypi/dw/unstructured" width=150/></a> |
+| [Fivetran](https://www.fivetran.com/) | A trusted platform that extracts, loads, and transforms data from various sources for analytics or operations | N/A | <a href=https://pypi.org/project/fivetran><img src="https://img.shields.io/pypi/dw/fivetran" width=150/></a> |
 
 
 ### Embedding Model
 | Name (site) | Description | Github | Pip Installs |
 | --- | --- | --- | --- |
-| [Open AI  Ada 2](https://platform.openai.com/docs/guides/embeddings) | A powerful text embedding model for capturing semantic relationships in text | n/a | <a href=https://pypi.org/project/openai><img src="https://img.shields.io/pypi/dw/openai" width=150/></a> |
-| [Cohere AI](https://docs.cohere.com/docs/embeddings) | Generate text embeddings with large language models for semantic search, topic clustering, and more | ![cohere-ai/notebooks](https://img.shields.io/github/stars/cohere-ai/notebooks?style=social)| <a href=https://pypi.org/project/cohere><img src="https://img.shields.io/pypi/dw/cohere" width=150/></a> |
-| [Sentence Transformers](https://huggingface.co/) | A Python framework for state-of-the-art sentence, text, and image embeddings | ![UKPLab/sentence-transformers](https://img.shields.io/github/stars/UKPLab/sentence-transformers?style=social) | <a href=https://pypi.org/project/sentence-transformers><img src="https://img.shields.io/pypi/dw/sentence-transformers" width=150/></a> |
+| [Open AI Ada Embedding 2](https://platform.openai.com/docs/guides/embeddings) | A text embedding model for capturing semantic relationships in text | n/a | <a href=https://pypi.org/project/openai><img src="https://img.shields.io/pypi/dw/openai" width=150/></a> |
+| [Cohere AI](https://docs.cohere.com/docs/embeddings) | Generate text embeddings with large language models for semantic search, topic clustering, etc. | ![cohere-ai/notebooks](https://img.shields.io/github/stars/cohere-ai/notebooks?style=social)| <a href=https://pypi.org/project/cohere><img src="https://img.shields.io/pypi/dw/cohere" width=150/></a> |
+| [Sentence Transformers](https://huggingface.co/) | A Python framework for sentence, text, and image embeddings | ![UKPLab/sentence-transformers](https://img.shields.io/github/stars/UKPLab/sentence-transformers?style=social) | <a href=https://pypi.org/project/sentence-transformers><img src="https://img.shields.io/pypi/dw/sentence-transformers" width=150/></a> |
 
 
 
@@ -60,7 +60,7 @@ Our [original article](https://a16z.com/2023/06/20/emerging-architectures-for-ll
 | --- | --- | --- | --- |
 | [OpenAI Playground](https://platform.openai.com/) | A web-based platform for experimenting with various machine-learning models developed by OpenAI | N/A | N/A |
 | [nat.dev](https://nat.dev) | A platform that allows users to test prompts with multiple language models, both commercial and open-source, and compare their performance | ![nat/openplayground](https://img.shields.io/github/stars/nat/openplayground?style=social) | <a href=https://pypi.org/project/openplayground><img src="https://img.shields.io/pypi/dw/openplayground" width=150/></a> |
-| [Humanloop](https://humanloop.com/) | A platform that helps developers build high-performing applications on top of large language models like GPT-3, with tools for experimenting, collecting data, and fine-tuning models | ![humanloop/humanloop-tutorial-python](https://img.shields.io/github/stars/humanloop/humanloop-tutorial-python?style=social) | <a href=https://pypi.org/project/humanloop><img src="https://img.shields.io/pypi/dw/humanloop" width=150/></a> |
+| [Humanloop](https://humanloop.com/) | A platform that helps developers build applications on top of large language models like GPT-3, with tools for experimenting, collecting data, and fine-tuning models | ![humanloop/humanloop-tutorial-python](https://img.shields.io/github/stars/humanloop/humanloop-tutorial-python?style=social) | <a href=https://pypi.org/project/humanloop><img src="https://img.shields.io/pypi/dw/humanloop" width=150/></a> |
 
 
 ### Orchestration
@@ -68,7 +68,7 @@ Our [original article](https://a16z.com/2023/06/20/emerging-architectures-for-ll
 | --- | --- | --- | --- |
 | [Langchain](https://langchain.com/) | An open-source library that provides developers with the tools to build applications powered by large language models (LLMs) | ![langchain-ai/langchain](https://img.shields.io/github/stars/langchain-ai/langchain?style=social) | <a href=https://pypi.org/project/langchain><img src="https://img.shields.io/pypi/dw/langchain" width=150/></a> |
 | [LlamaIndex](https://llamaindex.ai/) | A data framework for LLM applications to ingest, structure, and access private or domain-specific data | ![jerryjliu/llama_index](https://img.shields.io/github/stars/jerryjliu/llama_index?style=social) | <a href=https://pypi.org/project/llama-index><img src="https://img.shields.io/pypi/dw/llama-index" width=150/></a> |
-| [Microsoft Semantic Kernel](https://github.com/microsoft/semantic-kernel) | A lightweight open-source orchestration SDK that lets you easily mix-and-match AI prompts with conventional programming languages like C and Python [1] | ![microsoft/semantic-kernel](https://img.shields.io/github/stars/microsoft/semantic-kernel?style=social) | <a href=https://pypi.org/project/semantic-kernel><img src="https://img.shields.io/pypi/dw/semantic-kernel" width=150/></a> |
+| [Microsoft Semantic Kernel](https://github.com/microsoft/semantic-kernel) | A lightweight open-source orchestration SDK that lets you mix-and-match AI prompts with conventional programming languages like C and Python | ![microsoft/semantic-kernel](https://img.shields.io/github/stars/microsoft/semantic-kernel?style=social) | <a href=https://pypi.org/project/semantic-kernel><img src="https://img.shields.io/pypi/dw/semantic-kernel" width=150/></a> |
 | [Vercel AI SDK](https://sdk.vercel.ai/docs) | An open-source library designed to help developers build conversational streaming user interfaces in JavaScript and TypeScript [4] | ![vercel/ai](https://img.shields.io/github/stars/vercel-labs/ai?style=social) | <a href=https://pypi.org/project/vercel-ai-sdk><img src="https://img.shields.io/npm/dw/ai" width=150/></a>(node/npm)|
 | [Vectara AI](https://vectara.com/) | A GenAI conversational search and discovery platform that allows businesses to have intelligent conversations utilizing their own data | ![vectara/vectara-ingest](https://img.shields.io/github/stars/vectara/vectara-ingest?style=social) | N/A |
 | [ChatGPT](https://chat.openai.com) | An AI chatbot that uses natural language processing to create humanlike conversational dialogue | | |
@@ -104,20 +104,30 @@ Our [original article](https://a16z.com/2023/06/20/emerging-architectures-for-ll
 | [Microsoft Guidance](https://github.com/microsoft/guidance) | A guidance language for controlling large language models, providing a simple and comprehensive syntax for architecting complex LLM workflows | ![microsoft/guidance](https://img.shields.io/github/stars/microsoft/guidance?style=social) | <a href=https://pypi.org/project/guidance><img src="https://img.shields.io/pypi/dw/guidance" width=150/></a> |
 | [LMQL](https://lmql.ai/) | An open-source programming language and platform for language model interaction, designed to make working with language models like OpenAI more expressive and accessible | ![eth-sri/lmql](https://img.shields.io/github/stars/eth-sri/lmql?style=social) | <a href=https://pypi.org/project/lmql><img src="https://img.shields.io/pypi/dw/lmql" width=150/></a> |
 
+
+### LLM APIs (proprietary)
+| Name (site) | Description | Github | Pip Installs |
+| --- | --- | --- | --- |
+| [OpenAI](https://openai.com) | An AI research and deployment company with a mission to ensure that artificial general intelligence benefits all of humanity | N/A | <a href=https://pypi.org/project/openai><img src="https://img.shields.io/pypi/dw/openai" width=150/></a> |
+| [Anthropic](https://anthropic.com) | Claude is an AI assistant based on Anthropic’s research into training helpful, honest, and harmless AI systems. The model is capable of a wide variety of conversational and text processing tasks. | N/A | <a href=https://pypi.org/project/anthropic><img src="https://img.shields.io/pypi/dw/anthropic" width=150/></a> |
+| [Cohere AI](https://docs.cohere.com/docs/embeddings) | Generate text embeddings with large language models for semantic search, topic clustering, etc. | ![cohere-ai/notebooks](https://img.shields.io/github/stars/cohere-ai/notebooks?style=social)| <a href=https://pypi.org/project/cohere><img src="https://img.shields.io/pypi/dw/cohere" width=150/></a> |
+
+### LLM APIs (open source)
+| Name (site) | Description | Github | Pip Installs |
+| --- | --- | --- | --- |
+| [HuggingFace](https://huggingface.co/) | An open source data science and machine learning platform that acts as a hub for AI experts and enthusiasts |  ![huggingface/transformers](https://img.shields.io/github/stars/huggingface/transformers?style=social) | <a href=https://pypi.org/project/transformers><img src="https://img.shields.io/pypi/dw/transformers" width=150/></a> |
+| [Replicate](https://replicate.com/) | (No description found) | ![replicate/cog](https://img.shields.io/github/stars/replicate/cog?style=social) | <a href=https://pypi.org/project/replicate><img src="https://img.shields.io/pypi/dw/replicate" width=150/></a> |
+
+
+- 
+For hosting and cloud vendors below, we do not provide github/pip data as it typically is not applicable.
+
 ### App Hosting
 - Steamship (https://steamship.com/)
 - Netlify (https://www.netlify.com/)
 - Vercel (https://vercel.com/)
 - Streamlit (https://streamlit.io/)
 - Modal (https://modal.com)
-
-### LLM APIs (proprietary)
-- OpenAI (https://openai.com/)
-- Anthropic (https://anthropic.com/)
-
-### LLM APIs (open source)
-- HuggingFace (https://huggingface.co/)
-- Replicate (https://replicate.com/)
 
 ### Cloud Providers
 - AWS (https://aws.amazon.com/)
