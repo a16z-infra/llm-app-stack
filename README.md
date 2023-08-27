@@ -179,8 +179,8 @@ For hosting and cloud vendors below, we do not provide github/pip data as it typ
 
 
 ## Formatting Prompt Templates
-We try to leverages LLMs in our everyday work as much as possible. Manually searching for github and pypi links is a great task to automate, and we were able to use Perplexity AI to do a lot of the heavy lifting using this [Perplexity promp](https://github.com/a16z-infra/llm-app-stack/blob/main/table_construction_prompts/prompt_1_search.txt). Note, it worked roughly 75% of the time, and could generally handle up to 3 projects at a time, pulling data from 20-30 sources in each iteration. 
+We were able to somewhat automate searching for Github and PyPI links using this [Perplexity search prompt](https://github.com/a16z-infra/llm-app-stack/blob/main/table_construction_prompts/prompt_1_search.txt). Note, it worked roughly 75% of the time, and could generally handle up to 3 projects at a time, pulling data from 20-30 sources in each iteration. 
 
-Given you are most likely just submitting your own project, the second [chatgpt reformatting prompt](https://github.com/a16z-infra/llm-app-stack/blob/main/table_construction_prompts/prompt_2_format.txt) should be most helpful, it works best with gpt4, but can be used with gpt3 as well. 
+You are most likely just submitting your own project, hence this second [Chatgpt reformatting prompt](https://github.com/a16z-infra/llm-app-stack/blob/main/table_construction_prompts/prompt_2_format.txt) should be most helpful. It works best with gpt4, but can be used with gpt3 as well! 
 
 <p style="text-align: right;"><a href="#table-of-contents">^ Back to Contents ^</a></p>
