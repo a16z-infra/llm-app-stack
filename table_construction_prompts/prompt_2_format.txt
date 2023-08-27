@@ -1,8 +1,10 @@
 *** ORIGINAL TABLE FOR TASK ***
 | Name (site) | Description | Github | Pip Installs |
 | --- | --- | --- | --- |
-<<<---- SUBTITUE INFORMATION BELOW AND REMOVE THIS LINE FROM PROMPT ---->>>> 
+{{{{---- 
+SUBTITUE INFORMATION BELOW AND REMOVE THESE LINES FROM PROMPT 
 | [Name](Landing page) | [Description] | [github repo url] | [pip package name] |
+---->}}}}
 
 Please convert the original table above similar to how the example original table is converted below.
 
@@ -16,9 +18,9 @@ Please convert the original table above similar to how the example original tabl
 *** EXAMPLE OUTPUT TABLE ***
 | Name (site) | Description | Github | Pip Installs |
 | --- | --- | --- | --- |
-| [Databricks](https://databricks.com/) | A unified set of tools for building, deploying, sharing, and maintaining enterprise-grade data solutions at scale | ![GitHub Repo stars](https://img.shields.io/github/stars/apache/spark?style=social) | <a href=https://pypi.org/project/pyspark><img src="https://img.shields.io/pypi/dw/pyspark" width=150/></a> |
-| [Airflow](https://airflow.apache.org/) | A platform to programmatically author, schedule, and monitor workflows | ![GitHub Repo stars](https://img.shields.io/github/stars/apache/airflow?style=social) | <a href=https://pypi.org/project/apache-airflow><img src="https://img.shields.io/pypi/dw/apache-airflow" width=150/></a> |
-| [Unstructured.io](https://unstructured.io/) | Open-source components for pre-processing text documents such as PDFs, HTML and Word Documents | ![Unstructured-IO/unstructured](https://img.shields.io/github/stars/Unstructured-IO/unstructured?style=social) | <a href=https://pypi.org/project/unstructured><img src="https://img.shields.io/pypi/dw/unstructured" width=150/></a> |
+| [Databricks](https://databricks.com/) | A unified set of tools for building, deploying, sharing, and maintaining enterprise-grade data solutions at scale | <a href=https://github.com/apache/spark><img src="https://img.shields.io/github/stars/apache/spark?style=social" width=90/></a> | <a href=https://pypi.org/project/pyspark><img src="https://img.shields.io/pypi/dw/pyspark" width=150/></a> |
+| [Airflow](https://airflow.apache.org/) | A platform to programmatically author, schedule, and monitor workflows | <a href=https://github.com/apache/airflow><img src="https://img.shields.io/github/stars/apache/airflow?style=social" width=90/></a> | <a href=https://pypi.org/project/apache-airflow><img src="https://img.shields.io/pypi/dw/apache-airflow" width=150/></a> |
+| [Unstructured.io](https://unstructured.io/) | Open-source components for pre-processing text documents such as PDFs, HTML and Word Documents | <a href=https://github.com/Unstructured-IO/unstructured><img src="https://img.shields.io/github/stars/Unstructured-IO/unstructured?style=social" width=90/></a> | <a href=https://pypi.org/project/unstructured><img src="https://img.shields.io/pypi/dw/unstructured" width=150/></a> |
 
 For the github part use the following markdown:
 ![{org_name/repo_name}](https://img.shields.io/github/stars/{org_name/repo_name}?style=social)
