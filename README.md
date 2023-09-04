@@ -150,25 +150,34 @@ Our [original article](https://a16z.com/2023/06/20/emerging-architectures-for-ll
 For hosting and cloud vendors below, we do not provide github/pip data as it typically is not applicable.
 
 ### App Hosting
-- Steamship (https://steamship.com/)
-- Netlify (https://www.netlify.com/)
-- Vercel (https://vercel.com/)
-- Streamlit (https://streamlit.io/)
-- Modal (https://modal.com)
+| Name (site) | Description |
+|------------|------------|
+| [Steamship](https://steamship.com/) | Streamlit is an open-source Python library designed for creating and sharing custom web apps for machine learning and data science. It allows developers to build and deploy data apps without the need for extensive web development knowledge. |
+| [Netlify](https://www.netlify.com/) | Netlify is a cloud computing company that offers a development platform for web applications and dynamic websites. The platform integrates build tools, web frameworks, APIs, and various web technologies into a unified developer workflow. |
+| [Vercel](https://vercel.com/) | Vercel is a cloud platform that focuses on providing frontend-as-a-service, enabling engineers to deploy and run the user-facing parts of their applications. Vercel supports popular frontend frameworks out-of-the-box and offers globally distributed infrastructure. |
+| [Streamlit](https://streamlit.io/) | Steamship AI is an SDK and hosting platform for AI Agents and Tools. It functions as both a package manager and package hosting service for AI, with each package running in the cloud on a managed stack. Steamship provides an SDK for building serverless agents using a low-code Python framework, enabling scaling fleets of agents. |
+| [Modal](https://modal.com) | Modal AI is a platform that eables running distributed applications using the modal Python package. It provides a range of building blocks, such as GPU-accelerated Modal Functions, shared volumes for caching, and Modal webhooks, to help users build on large pretrained models in a simple manner. | 
+
+<p style="text-align: right;"><a href="#table-of-contents">^ Back to Contents ^</a></p>
 
 ### Cloud Providers
-- AWS (https://aws.amazon.com/)
-- GCP (https://cloud.google.com/)
-- Azure (https://azure.microsoft.com/en-us)
-- Coreweave (https://coreweave.com/)
+| Name (site) | Description |
+|------------|------------|
+| [AWS](https://aws.amazon.com/) | Amazon Web Services (AWS) is a cloud computing platform, offering over 200 services from data centers globally. AWS provides compute (including GPU instances), storage, databases, analytics, networking, mobile, developer tools, management tools, IoT, security, as well as enterprise applications. |
+| [GCP](https://cloud.google.com/) | Google Cloud Platform (GCP) is a public cloud vendor that provides a suite of computing services, including compute (including GPU instances), analytics, storage, and networking. |
+| [Azure](https://azure.microsoft.com/) | Azure is a cloud platform by Microsoft that offers 200+ products and cloud services designed to help build, run, and manage applications across multiple clouds, on-premises, and at the edge. |
+| [Coreweave](https://coreweave.com/) | CoreWeave is a specialized cloud provider that delivers GPUs on top of a flexible infrastructure. It is designed for large-scale, GPU-accelerated workloads. CoreWeave offers solutions for compute-intensive use cases, such as AI, VFX, computational chemistry, and pixel streaming. |
+
+<p style="text-align: right;"><a href="#table-of-contents">^ Back to Contents ^</a></p>
 
 ### Opinionated Clouds
-- Databricks (https://databricks.com/)
-- Anyscale (https://anyscale.com/)
-- Mosaic (https://mosaicml.com)
-- Modal (https://modal.com)
-- Runpod (https://runpod.io/)
-- OctoML (https://octoml.ai/)
+| Name (site) | Description |
+|------------|------------|
+| [Databricks (MosaicML)](https://databricks.com/) | A unified set of tools for building, deploying, sharing, and maintaining enterprise data solutions. Databricks acquired Mosaic ML in 2023 along with its tooling and platform for pre-trainining, fine-tuning and inferencing LLMs. |  
+| [Anyscale](https://anyscale.com/) | Anyscale is a fully managed compute platform that enables the development, deployment, and management of Ray (Python) applications. It is designed to scale workloads from data loading to training, hyperparameter tuning, reinforcement learning, and model serving. |
+| [Modal](https://modal.com) | Modal AI is a platform that eables running distributed applications using the modal Python package. It provides a range of building blocks, such as GPU-accelerated Modal Functions, shared volumes for caching, and Modal webhooks, to help users build on large pretrained models in a simple manner. | 
+| [Runpod](https://runpod.io/) | Runpod is a cloud computing platform designed for AI and machine learning applications that require GPUs. Its  offering includes GPU Instances, Serverless GPUs, and AI Endpoints. It offers OnDemand and Spot GPUs to suit different compute needs and Persistent Volumes to ensure data safety when pods are stopped. |
+| [OctoML](https://octoml.ai/) | OctoML is a compute service that allows users to run, tune, and scale generative models, including language, vision, and audio models, for their AI applications. The platform is built by the creators of Apache TVM, an open-source stack for machine learning portability and performance. |
 
 
 <p style="text-align: right;"><a href="#table-of-contents">^ Back to Contents ^</a></p>
