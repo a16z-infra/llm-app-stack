@@ -132,7 +132,7 @@ Our [original article](https://a16z.com/2023/06/20/emerging-architectures-for-ll
 ### LLM APIs (proprietary)
 | Name (site) | Description | Github | Pip Installs |
 |------------|------------|------------|------------|
-| [OpenAI](https://openai.com) | An AI research and deployment company with a mission to ensure that artificial general intelligence benefits all of humanity | N/A | <a href=https://pypi.org/project/openai><img src="https://img.shields.io/pypi/dw/openai" width=150/></a> |
+| [OpenAI](https://openai.com) | An AI research and deployment company with a mission to ensure that artificial general intelligence benefits all of humanity. Open AI provides many leading LLMs including the GPT-3.5 family and GPT-4. | N/A | <a href=https://pypi.org/project/openai><img src="https://img.shields.io/pypi/dw/openai" width=150/></a> |
 | [Anthropic](https://anthropic.com) | Claude is an AI assistant based on Anthropic’s research into training helpful, honest, and harmless AI systems. The model is capable of a wide variety of conversational and text processing tasks | N/A | <a href=https://pypi.org/project/anthropic><img src="https://img.shields.io/pypi/dw/anthropic" width=150/></a> |
 | [Cohere AI](https://docs.cohere.com/docs/embeddings) | Generate text embeddings with large language models for semantic search, topic clustering, etc | <a href=https://github.com/cohere-ai/notebooks><img src="https://img.shields.io/github/stars/cohere-ai/notebooks?style=social" width=90/></a> | <a href=https://pypi.org/project/cohere><img src="https://img.shields.io/pypi/dw/cohere" width=150/></a> |
 
