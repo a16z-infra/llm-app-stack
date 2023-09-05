@@ -9,15 +9,15 @@ PLease look up the descriptions, as well as most relevant github repo, pip packa
 
 For the descriptions, try searching "a16z llm app stack" and looking for descriptions in that article, in addition to searching for descriptions of the company/product names
 
-For the github: 
+For the github link: 
 - make sure it is an actual github repo, with org/repo, not the org or user page
-- so for databricks it would https://github.com/apache/spark which is their most popular open source project they support... 
-- for airflow it would be https://github.com/apache/airflow
+- for databricks, it would be https://github.com/apache/spark, which is their most popular open source project they support 
+- for airflow, it would be https://github.com/apache/airflow
 - if you can't find anything that seems like the main project of that company, leave it blank
 
 For pip packages, make sure you insert the installable project name:
-- for github, it is pyspark
-- for airflow it is apache-airflow
+- for databricks, it is pyspark
+- for airflow, it is apache-airflow
 - this is often found by search 'pypi [company name]' or '[company name] pip install'
 - if you can't find anything that seems like the main package of that company, leave it blank
 
