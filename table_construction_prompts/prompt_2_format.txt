@@ -23,7 +23,7 @@ Please convert the original table above similar to how the example original tabl
 | [Unstructured.io](https://unstructured.io/) | Open-source components for pre-processing text documents such as PDFs, HTML and Word Documents | <a href=https://github.com/Unstructured-IO/unstructured><img src="https://img.shields.io/github/stars/Unstructured-IO/unstructured?style=social" width=90/></a> | <a href=https://pypi.org/project/unstructured><img src="https://img.shields.io/pypi/dw/unstructured" width=150/></a> |
 
 For the github part use the following markdown:
-![{org_name/repo_name}](https://img.shields.io/github/stars/{org_name/repo_name}?style=social)
+<a href=https://github.com/{org_name/repo_name}><img src="https://img.shields.io/github/stars/{org_name/repo_name}?style=social" width=90/></a>
 
 For the pip install part use the following html:
 <a href=https://pypi.org/project/{pip package}><img src="https://img.shields.io/pypi/dw/{pip package}" width=150/></a> |
