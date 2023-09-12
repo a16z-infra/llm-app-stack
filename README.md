@@ -25,7 +25,6 @@ Our [original article](https://a16z.com/2023/06/20/emerging-architectures-for-ll
 12. [App Hosting](#app-hosting)
 13. [Cloud Providers](#cloud-providers)
 14. [Opinionated Clouds](#opinionated-clouds)
-15. [---Formatting Prompt Templates---](#formatting-prompt-templates)
 
 
 
