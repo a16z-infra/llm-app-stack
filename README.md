@@ -6,7 +6,7 @@
 
 This is a list of available tools, projects, and vendors at each layer of the LLM app stack. 
 
-Our [original article](https://a16z.com/2023/06/20/emerging-architectures-for-llm-applications/) included only the most popular tools based on user interviews. This repo is intended to be more comprehensive, covering more options in each category, and kept up-to-date. If you see anything missing or miscategorized, please open a PR or issue! There is also a guide to using [Perplexity or ChatGPT](#formatting-prompt-templates) to make the markdown formatting easier.
+Our [original article](https://a16z.com/2023/06/20/emerging-architectures-for-llm-applications/) included only the most popular tools based on user interviews. This repo is meant to be more comprehensive, covering all available options in each category. If you see anything missing or miscategorized, please open a PR or issue! There is also a guide to using [Perplexity or ChatGPT](#formatting-prompt-templates) to make the markdown formatting easier.
 
 
 ## Table of Contents
