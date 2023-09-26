@@ -143,7 +143,7 @@ We also included [Perplexity and ChatGPT prompts](#formatting-prompt-templates) 
 | Name (site) | Description | Github | Pip Installs |
 |------------|------------|------------|------------|
 | [HuggingFace](https://huggingface.co/) | Hub for open-source AI models and inference endpoints, including leading base LLMs and LoRAs/ fine-tunes | <a href=https://github.com/huggingface/transformers><img src="https://img.shields.io/github/stars/huggingface/transformers?style=social" width=90/></a> | <a href=https://pypi.org/project/transformers><img src="https://img.shields.io/pypi/dw/transformers" width=150/></a> |
-| [Replicate](https://replicate.com/) | AI hosting platform and model inference hub that allows software developers to intgrate AI models with a simple API, no specialized machine learning knowledge or infrastructure required | <a href=https://github.com/replicate/cog><img src="https://img.shields.io/github/stars/replicate/cog?style=social" width=90/></a> | <a href=https://pypi.org/project/replicate><img src="https://img.shields.io/pypi/dw/replicate" width=150/></a> |
+| [Replicate](https://replicate.com/) | AI hosting platform and model inference hub; allows software developers to integrate AI models into their apps with a simple API, no specialized ML knowledge or infrastructure required | <a href=https://github.com/replicate/cog><img src="https://img.shields.io/github/stars/replicate/cog?style=social" width=90/></a> | <a href=https://pypi.org/project/replicate><img src="https://img.shields.io/pypi/dw/replicate" width=150/></a> |
 
 <p style="text-align: right;"><a href="#table-of-contents">^ Back to Contents ^</a></p>
 
