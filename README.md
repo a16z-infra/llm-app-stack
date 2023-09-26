@@ -147,9 +147,6 @@ We also included [Perplexity and ChatGPT prompts](#formatting-prompt-templates) 
 
 <p style="text-align: right;"><a href="#table-of-contents">^ Back to Contents ^</a></p>
 
-
-For hosting and cloud vendors below, we do not provide github/pip data as it typically is not applicable.
-
 ### App Hosting
 | Name (site) | Description |
 |------------|------------|
