@@ -47,9 +47,9 @@ We also included [Perplexity and ChatGPT prompts](#formatting-prompt-templates) 
 ### Embedding Model
 | Name (site) | Description | Github | Pip Installs |
 |------------|------------|------------|------------|
-| [Open AI Ada Embedding 2](https://platform.openai.com/docs/guides/embeddings) | A text embedding model for capturing semantic relationships in text | n/a | <a href=https://pypi.org/project/openai><img src="https://img.shields.io/pypi/dw/openai" width=150/></a> |
-| [Cohere AI](https://docs.cohere.com/docs/embeddings) | Generate text embeddings with large language models for semantic search, topic clustering, etc. | <a href=https://github.com/cohere-ai/notebooks><img src="https://img.shields.io/github/stars/cohere-ai/notebooks?style=social" width=90/></a> | <a href=https://pypi.org/project/cohere><img src="https://img.shields.io/pypi/dw/cohere" width=150/></a> |
-| [Sentence Transformers](https://huggingface.co/) | A Python framework for sentence, text, and image embeddings | <a href=https://github.com/UKPLab/sentence-transformers><img src="https://img.shields.io/github/stars/UKPLab/sentence-transformers?style=social" width=90/></a> | <a href=https://pypi.org/project/sentence-transformers><img src="https://img.shields.io/pypi/dw/sentence-transformers" width=150/></a> |
+| [Open AI Ada Embedding 2](https://platform.openai.com/docs/guides/embeddings) | OpenAI's most popular embedding model for capturing semantic relationships in text | n/a | <a href=https://pypi.org/project/openai><img src="https://img.shields.io/pypi/dw/openai" width=150/></a> |
+| [Cohere AI](https://docs.cohere.com/docs/embeddings) | Independent commerical provider of LLMs, with particular focus on embeddings for semantic search, topic clustering, and vertical applications | <a href=https://github.com/cohere-ai/notebooks><img src="https://img.shields.io/github/stars/cohere-ai/notebooks?style=social" width=90/></a> | <a href=https://pypi.org/project/cohere><img src="https://img.shields.io/pypi/dw/cohere" width=150/></a> |
+| [Sentence Transformers](https://huggingface.co/) | Open-source Python framework for sentence, text, and image embeddings | <a href=https://github.com/UKPLab/sentence-transformers><img src="https://img.shields.io/github/stars/UKPLab/sentence-transformers?style=social" width=90/></a> | <a href=https://pypi.org/project/sentence-transformers><img src="https://img.shields.io/pypi/dw/sentence-transformers" width=150/></a> |
 
 <p style="text-align: right;"><a href="#table-of-contents">^ Back to Contents ^</a></p>
 
