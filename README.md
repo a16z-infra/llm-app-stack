@@ -8,7 +8,7 @@ This is a list of available tools, projects, and vendors at each layer of the LL
 
 Our [original article](https://a16z.com/2023/06/20/emerging-architectures-for-llm-applications/) included only the most popular options, based on user interviews. This repo is meant to be more comprehensive, covering all available options in each category. We probably still missed some important projects, so please open a PR if you see anything missing.
 
-We also included some [Perplexity and ChatGPT prompts](#formatting-prompt-templates) to make searching and markdown table formatting easier.
+We also included [Perplexity and ChatGPT prompts](#formatting-prompt-templates) to make searching and markdown table formatting easier.
 
 
 ## Table of Contents
