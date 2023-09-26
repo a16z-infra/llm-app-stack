@@ -150,9 +150,9 @@ We also included [Perplexity and ChatGPT prompts](#formatting-prompt-templates) 
 ### App Hosting
 | Name (site) | Description |
 |------------|------------|
-| [Steamship](https://steamship.com/) | Steamship AI is an SDK and hosting platform for AI Agents and Tools. It functions as both a package manager and package hosting service for AI, with each package running in the cloud on a managed stack. Steamship provides an SDK for building serverless agents using a low-code Python framework, enabling the scaling of fleets of agents. |
-| [Netlify](https://www.netlify.com/) | Netlify is a cloud computing company that offers a development platform for web applications and dynamic websites. The platform integrates build tools, web frameworks, APIs, and various web technologies into a unified developer workflow. |
-| [Vercel](https://vercel.com/) | Vercel is a cloud platform that focuses on providing frontend-as-a-service, enabling engineers to deploy and run the user-facing parts of their applications. Vercel supports popular frontend frameworks out-of-the-box and offers globally distributed infrastructure. |
+| [Vercel](https://vercel.com/) | Cloud platform designed for front-end engineers, built with first-class support for LLM apps. |
+| [Netlify](https://www.netlify.com/) | Netlify is an enterprise cloud computing company that offers a development platform for web applications and dynamic websites. The platform integrates build tools, web frameworks, APIs, and various web technologies into a unified developer workflow. |
+| [Steamship](https://steamship.com/) | Steamship AI is an SDK and hosting platform for AI agents and tools. It functions as both a package manager and package hosting service for AI, with each package running in the cloud on a managed stack. |
 | [Streamlit](https://streamlit.io/) | Streamlit is an open-source Python library designed for creating and sharing custom web apps for machine learning and data science. It allows developers to build and deploy python-based data apps without the need for extensive web development knowledge. |
 | [Modal](https://modal.com) | Modal AI is a platform that eables running distributed applications using the modal Python package. It provides a range of building blocks, such as GPU-accelerated Modal Functions, shared volumes for caching, and Modal webhooks, to help users build on large pretrained models. | 
 
@@ -161,9 +161,9 @@ We also included [Perplexity and ChatGPT prompts](#formatting-prompt-templates) 
 ### Cloud Providers
 | Name (site) | Description |
 |------------|------------|
-| [AWS](https://aws.amazon.com/) | Amazon Web Services (AWS) is a cloud computing platform, offering over 200 services from data centers globally. AWS provides compute (including GPU instances), storage, databases, analytics, networking, mobile, developer tools, management tools, IoT, security, as well as enterprise applications. |
-| [GCP](https://cloud.google.com/) | Google Cloud Platform (GCP) is a public cloud vendor that provides a suite of computing services, compute (including GPU instances), analytics, storage, and networking. |
-| [Azure](https://azure.microsoft.com/) | Azure is a cloud platform by Microsoft that offers 200+ products and cloud services designed to help build, run, and manage applications across multiple clouds, on-premises, and at the edge. |
+| [AWS](https://aws.amazon.com/) | Amazon Web Services (AWS) is a cloud computing platform, offering over 200 services from data centers globally, including compute (GPUs + proprietary hardware) for LLM training and inference |
+| [GCP](https://cloud.google.com/) | Google Cloud Platform (GCP) is a public cloud vendor that provides a suite of computing services, compute (including GPUs and TPUs), analytics, storage, and networking. |
+| [Azure](https://azure.microsoft.com/) | Azure is a cloud platform by Microsoft that offers 200+ products and cloud services designed to help build, run, and manage applications across multiple clouds, on-premises, and at the edge (including GPUs). |
 | [Coreweave](https://coreweave.com/) | CoreWeave is a specialized cloud provider that delivers GPUs on top of a flexible infrastructure. It is designed for large-scale, GPU-accelerated workloads. CoreWeave offers solutions for compute-intensive use cases, such as AI, VFX, computational chemistry, and pixel streaming. |
 
 <p style="text-align: right;"><a href="#table-of-contents">^ Back to Contents ^</a></p>
