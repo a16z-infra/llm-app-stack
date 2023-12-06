@@ -14,9 +14,9 @@ We also included [Perplexity and ChatGPT prompts](#formatting-prompt-templates) 
 ## Table of Contents
 
 1. [Data Pipelines](#data-pipelines)
-2. [Embedding Model](#embedding-model)
-3. [Vector Database](#vector-database)
-4. [Playground](#playground)
+2. [Embedding Models](#embedding-models)
+3. [Vector Databases](#vector-databases)
+4. [Playgrounds](#playgrounds)
 5. [Orchestrators](#orchestrators)
 6. [APIs / Plugins](#apis--plugins)
 7. [LLM Caches](#llm-cache)
@@ -38,7 +38,7 @@ We also included [Perplexity and ChatGPT prompts](#formatting-prompt-templates) 
 |------------|------------|------------|------------|
 | [Databricks](https://databricks.com/) | A unified data platform for building, deploying, and maintaining enterprise data solutions, including products (like MosaicML and MLflow) purpose-built for AI | <a href=https://github.com/apache/spark><img src="https://img.shields.io/github/stars/apache/spark?style=social" width=90/></a> | <a href=https://pypi.org/project/pyspark><img src="https://img.shields.io/pypi/dw/pyspark" width=150/></a> |
 | [Airflow](https://airflow.apache.org/) | A data pipeline framework to programmatically author, schedule, and monitor data pipelines and workflows, including for LLMs | <a href=https://github.com/apache/airflow><img src="https://img.shields.io/github/stars/apache/airflow?style=social" width=90/></a> | <a href=https://pypi.org/project/apache-airflow><img src="https://img.shields.io/pypi/dw/apache-airflow" width=150/></a> |
-| [Unstructured.io](https://unstructured.io/) | Open-source components for pre-processing documents such as PDFs, HTML, and Word Documents for usage with LLM apps | <a href=https://github.com/Unstructured-IO/unstructured><img src="https://img.shields.io/github/stars/Unstructured-IO/unstructured?style=social" width=90/></a> | <a href=https://pypi.org/project/unstructured><img src="https://img.shields.io/pypi/dw/unstructured" width=150/></a> |
+| [Unstructured.io](https://unstructured.io/) | Open-source components for pre-processing documents such as PDFs, HTML, and Word documents for usage with LLM apps | <a href=https://github.com/Unstructured-IO/unstructured><img src="https://img.shields.io/github/stars/Unstructured-IO/unstructured?style=social" width=90/></a> | <a href=https://pypi.org/project/unstructured><img src="https://img.shields.io/pypi/dw/unstructured" width=150/></a> |
 | [Fivetran](https://www.fivetran.com/) | A platform that extracts, loads, and transforms data from various sources for analytics, AI, and operations | N/A | <a href=https://pypi.org/project/fivetran><img src="https://img.shields.io/pypi/dw/fivetran" width=150/></a> |
 | [Airbyte](https://www.airbyte.com/) | An open-source data integration engine that helps consolidate data in data warehouses, lakes, and databases | <a href=https://github.com/airbytehq/airbyte><img src="https://img.shields.io/github/stars/airbytehq/airbyte?style=social" width=90/></a> | <a href=https://pypi.org/project/airbyte-cdk><img src="https://img.shields.io/pypi/dw/airbyte-cdk" width=150/></a> |
 
@@ -62,7 +62,7 @@ We also included [Perplexity and ChatGPT prompts](#formatting-prompt-templates) 
 | [Pgvector](https://github.com/pgvector/pgvector) | An open-source vector similarity search for Postgres, allowing for exact and approximate nearest-neighbor search | <a href=https://github.com/pgvector/pgvector><img src="https://img.shields.io/github/stars/pgvector/pgvector?style=social" width=90/></a> | <a href=https://pypi.org/project/pgvector><img src="https://img.shields.io/pypi/dw/pgvector" width=150/></a> |
 | [Zilliz (Milvus)](https://milvus.io/) | An open-source vector database, built for developing and maintaining AI applications | <a href=https://github.com/milvus-io/milvus><img src="https://img.shields.io/github/stars/milvus-io/milvus?style=social" width=90/></a> | <a href=https://pypi.org/project/pymilvus><img src="https://img.shields.io/pypi/dw/pymilvus" width=150/></a> |
 | [Qdrant](https://qdrant.tech/) | A vector database and vector similarity search engine | <a href=https://github.com/qdrant/qdrant><img src="https://img.shields.io/github/stars/qdrant/qdrant?style=social" width=90/></a> | <a href=https://pypi.org/project/qdrant-client><img src="https://img.shields.io/pypi/dw/qdrant-client" width=150/></a> |
-| [Metal io](https://getmetal.io/) | A managed service for developers to build applications with machine learning embeddings | N/A | <a href=https://pypi.org/project/metal-python><img src="https://img.shields.io/pypi/dw/metal-python" width=150/></a> |
+| [Metal io](https://getmetal.io/) | A managed service for developers to build applications with ML embeddings | N/A | <a href=https://pypi.org/project/metal-python><img src="https://img.shields.io/pypi/dw/metal-python" width=150/></a> |
 | [LanceDB](https://lancedb.com/) | A serverless vector database for AI applications | <a href=https://github.com/lancedb/lancedb><img src="https://img.shields.io/github/stars/lancedb/lancedb?style=social" width=90/></a> | <a href=https://pypi.org/project/lancedb><img src="https://img.shields.io/pypi/dw/lancedb" width=150/></a> |
 
 <p style="text-align: right;"><a href="#table-of-contents">^ Back to Contents ^</a></p>
@@ -72,7 +72,7 @@ We also included [Perplexity and ChatGPT prompts](#formatting-prompt-templates) 
 |------------|------------|------------|------------|
 | [OpenAI Playground](https://platform.openai.com/) | A web-based platform for experimenting with various machine-learning models developed by OpenAI | N/A | N/A |
 | [nat.dev](https://nat.dev) | A platform that allows users to test prompts with multiple language models and compare their performance | <a href=https://github.com/nat/openplayground><img src="https://img.shields.io/github/stars/nat/openplayground?style=social" width=90/></a> | <a href=https://pypi.org/project/openplayground><img src="https://img.shields.io/pypi/dw/openplayground" width=150/></a> |
-| [Humanloop](https://humanloop.com/) | A platform that helps developers build applications on top of large language models | <a href=https://github.com/humanloop/humanloop-tutorial-python><img src="https://img.shields.io/github/stars/humanloop/humanloop-tutorial-python?style=social" width=90/></a> | <a href=https://pypi.org/project/humanloop><img src="https://img.shields.io/pypi/dw/humanloop" width=150/></a> |
+| [Humanloop](https://humanloop.com/) | A platform that helps developers build applications on top of LLMs | <a href=https://github.com/humanloop/humanloop-tutorial-python><img src="https://img.shields.io/github/stars/humanloop/humanloop-tutorial-python?style=social" width=90/></a> | <a href=https://pypi.org/project/humanloop><img src="https://img.shields.io/pypi/dw/humanloop" width=150/></a> |
 
 <p style="text-align: right;"><a href="#table-of-contents">^ Back to Contents ^</a></p>
 
@@ -81,7 +81,7 @@ We also included [Perplexity and ChatGPT prompts](#formatting-prompt-templates) 
 |------------|------------|------------|------------|
 | [Langchain](https://langchain.com/) | An open-source library that gives developers the tools to build applications powered by LLMs | <a href=https://github.com/langchain-ai/langchain><img src="https://img.shields.io/github/stars/langchain-ai/langchain?style=social" width=90/></a> | <a href=https://pypi.org/project/langchain><img src="https://img.shields.io/pypi/dw/langchain" width=150/></a> |
 | [LlamaIndex](https://llamaindex.ai/) | A data framework for LLM applications to ingest, structure, and access private or domain-specific data | <a href=https://github.com/jerryjliu/llama_index><img src="https://img.shields.io/github/stars/jerryjliu/llama_index?style=social" width=90/></a> | <a href=https://pypi.org/project/llama-index><img src="https://img.shields.io/pypi/dw/llama-index" width=150/></a> |
-| [Autogen](https://microsoft.github.io/autogen/) | Automates and streamlines LLM workflows using customizable, conversable agents for complex AI applications. | <a href=https://github.com/microsoft/autogen><img src="https://img.shields.io/github/stars/microsoft/autogen?style=social" width=90/></a> | <a href=https://pypi.org/project/pyautogen><img src="https://img.shields.io/pypi/dw/pyautogen" width=150/></a> |
+| [Autogen](https://microsoft.github.io/autogen/) | A framework for automating and streamlining LLM workflows using customizable, conversable agents for complex AI applications | <a href=https://github.com/microsoft/autogen><img src="https://img.shields.io/github/stars/microsoft/autogen?style=social" width=90/></a> | <a href=https://pypi.org/project/pyautogen><img src="https://img.shields.io/pypi/dw/pyautogen" width=150/></a> |
 | [Microsoft Semantic Kernel](https://github.com/microsoft/semantic-kernel) | A lightweight open-source orchestration SDK  | <a href=https://github.com/microsoft/semantic-kernel><img src="https://img.shields.io/github/stars/microsoft/semantic-kernel?style=social" width=90/></a> | <a href=https://pypi.org/project/semantic-kernel><img src="https://img.shields.io/pypi/dw/semantic-kernel" width=150/></a> |
 | [Vercel AI SDK](https://sdk.vercel.ai/docs) | An open-source library for developers to build streaming UIs in JavaScript and TypeScript | <a href=https://github.com/vercel/ai><img src="https://img.shields.io/github/stars/vercel-labs/ai?style=social" width=90/></a> | <a href=https://pypi.org/project/vercel-ai-sdk><img src="https://img.shields.io/npm/dw/ai" width=150/></a>(node/npm)|
 | [Vectara AI](https://vectara.com/) | A search and discovery platform for AI conversations utilizing your own data | <a href=https://github.com/vectara/vectara-ingest><img src="https://img.shields.io/github/stars/vectara/vectara-ingest?style=social" width=90/></a> | N/A |
@@ -110,17 +110,17 @@ We also included [Perplexity and ChatGPT prompts](#formatting-prompt-templates) 
 ### Logging / Monitoring / Eval
 | Name (site) | Description | Github | Pip Installs |
 |------------|------------|------------|------------|
-| [Braintrust Data](https://www.braintrustdata.com/) | AI product stack featuring evaluations, prompt playgrounds, continuous integration, dataset management, and access to various AI models through a single API | <a href=https://github.com/braintrustdata/braintrust-proxy><img src="https://img.shields.io/github/stars/braintrustdata/braintrust-proxy?style=social" width=90/></a> | <a href=https://pypi.org/project/braintrust><img src="https://img.shields.io/pypi/dw/braintrust" width=150/></a> |
+| [Braintrust Data](https://www.braintrustdata.com/) | An AI product stack featuring evaluations, prompt playgrounds, continuous integration, dataset management, and access to various AI models through a single API | <a href=https://github.com/braintrustdata/braintrust-proxy><img src="https://img.shields.io/github/stars/braintrustdata/braintrust-proxy?style=social" width=90/></a> | <a href=https://pypi.org/project/braintrust><img src="https://img.shields.io/pypi/dw/braintrust" width=150/></a> |
 | [Arize AI](https://arize.com/) | An observability platform for both LLMs and supervised ML | <a href=https://github.com/Arize-ai><img src="https://img.shields.io/github/stars/Arize-ai?style=social" width=90/></a> | <a href=https://pypi.org/project/arize><img src="https://img.shields.io/pypi/dw/arize" width=150/></a> |
 | [Weights & Biases](https://wandb.ai) | An MLOps platform for streamlining ML workflows | <a href=https://github.com/wandb/wandb><img src="https://img.shields.io/github/stars/wandb/wandb?style=social" width=90/></a> | <a href=https://pypi.org/project/wandb><img src="https://img.shields.io/pypi/dw/wandb" width=150/></a> |
-| [MLflow](https://mlflow.org/docs/latest/llm-tracking.html) | A platform to streamline machine learning development | <a href=https://github.com/mlflow/mlflow><img src="https://img.shields.io/github/stars/mlflow/mlflow?style=social" width=90/></a> | <a href=https://pypi.org/project/mlflow><img src="https://img.shields.io/pypi/dw/mlflow" width=150/></a> |
+| [MLflow](https://mlflow.org/docs/latest/llm-tracking.html) | A platform to streamline ML development | <a href=https://github.com/mlflow/mlflow><img src="https://img.shields.io/github/stars/mlflow/mlflow?style=social" width=90/></a> | <a href=https://pypi.org/project/mlflow><img src="https://img.shields.io/pypi/dw/mlflow" width=150/></a> |
 | [PromptLayer](https://promptlayer.com/) | A platform for tracking, managing, and sharing LLM prompt engineering | <a href=https://github.com/MagnivOrg/prompt-layer-library><img src="https://img.shields.io/github/stars/MagnivOrg/prompt-layer-library?style=social" width=90/></a> | <a href=https://pypi.org/project/promptlayer><img src="https://img.shields.io/pypi/dw/promptlayer" width=150/></a> |
 | [Helicone](https://helicone.ai/) | An open-source observability platform for LLMs | <a href=https://github.com/Helicone/helicone><img src="https://img.shields.io/github/stars/Helicone/helicone?style=social" width=90/></a> | <a href=https://pypi.org/project/helicone><img src="https://img.shields.io/pypi/dw/helicone" width=150/></a> |
-| [Portkey AI](https://portkey.ai/) | Platform to develop, launch, maintain, and iterate generative AI apps and features  | N/A | N/A |
-| [Freeplay AI](https://freeplay.ai/) | Platform to prototype, test, and optimize LLM features for customers | N/A | N/A |
+| [Portkey AI](https://portkey.ai/) | A platform to develop, launch, maintain, and iterate generative AI apps and features  | N/A | N/A |
+| [Freeplay AI](https://freeplay.ai/) | A platform to prototype, test, and optimize LLM features for customers | N/A | N/A |
 | [Gentrace](https://gentrace.ai/) | An API and SDKs for evaluating and observing generative data, with features like AI, heuristic, and human grading evaluations, as well as production data observation | N/A | <a href=https://pypi.org/project/gentrace-py><img src="https://img.shields.io/pypi/dw/gentrace-py" width=150/></a> |
-| [Patronus AI](https://www.patronus.ai/) | Automated evaluation and benchmarking platform for LLMs, providing tools for testing, scoring, and evaluating LLMs in real-world scenarios | N/A | N/A |
-| [Autoblocks AI](https://www.autoblocks.ai/) | AutoBlocks AI is a collaborative cloud-based workspace designed for rapid iteration on GenAI products, offering features like prompt management, observability, continuous evaluations, fine-tuning, prototyping, debugging, and scalable data ingestion & search, all in a provider-agnostic environment | N/A | <a href=https://pypi.org/project/autoblocksai><img src="https://img.shields.io/pypi/dw/autoblocksai" width=150/></a> |
+| [Patronus AI](https://www.patronus.ai/) | An automated evaluation and benchmarking platform for LLMs, providing tools for testing, scoring, and evaluating LLMs in real-world scenarios | N/A | N/A |
+| [Autoblocks AI](https://www.autoblocks.ai/) | A collaborative cloud-based workspace designed for rapid iteration on GenAI products, offering features like prompt management, observability, continuous evaluations, fine-tuning, prototyping, debugging, and scalable data ingestion & search, all in a provider-agnostic environment | N/A | <a href=https://pypi.org/project/autoblocksai><img src="https://img.shields.io/pypi/dw/autoblocksai" width=150/></a> |
 | [Context AI](https://context.ai/) | Tools for pre-launch LLM evaluations and post-launch analytics, with features such as  testing, performance monitoring, user conversation analysis, and support for various models and libraries | N/A | <a href=https://pypi.org/project/context-python><img src="https://img.shields.io/pypi/dw/context-python" width=150/></a> |
 | [E2b dev](https://e2b.dev/) | Services to deploy, test, and monitor AI agents, including a sandbox with a secure, long-running cloud environment for various LLMs with features like internet access | <a href=https://github.com/e2b-dev/e2b><img src="https://img.shields.io/github/stars/e2b-dev/e2b?style=social" width=90/></a> | <a href=https://pypi.org/project/e2b><img src="https://img.shields.io/pypi/dw/e2b" width=150/></a> |
 | [Agentops](https://www.agentops.ai/) | Toolkit for evaluating and developing AI agents, providing tools for agent development, monitoring capabilities, and replay analytics | <a href=https://github.com/AgentOps-AI/agentops><img src="https://img.shields.io/github/stars/AgentOps-AI/agentops?style=social" width=90/></a> | <a href=https://pypi.org/project/agentops><img src="https://img.shields.io/pypi/dw/agentops" width=150/></a> |
@@ -133,20 +133,20 @@ We also included [Perplexity and ChatGPT prompts](#formatting-prompt-templates) 
 ### Validators
 | Name (site) | Description | Github | Pip Installs |
 |------------|------------|------------|------------|
-| [Guardrails AI](https://shreyar.github.io/guardrails/) | An open-source Python package for specifying structure and type, validating and correcting the outputs of LLMs | <a href=https://github.com/ShreyaR/guardrails><img src="https://img.shields.io/github/stars/ShreyaR/guardrails?style=social" width=90/></a> | <a href=https://pypi.org/project/guardrails-ai><img src="https://img.shields.io/pypi/dw/guardrails-ai" width=150/></a> |
+| [Guardrails AI](https://shreyar.github.io/guardrails/) | An open-source Python package for specifying structure and type, validating, and correcting the outputs of LLMs | <a href=https://github.com/ShreyaR/guardrails><img src="https://img.shields.io/github/stars/ShreyaR/guardrails?style=social" width=90/></a> | <a href=https://pypi.org/project/guardrails-ai><img src="https://img.shields.io/pypi/dw/guardrails-ai" width=150/></a> |
 | [Rebuff](https://github.com/woop/rebuff) | An open-source framework designed to detect and protect against prompt injection attacks in LLM apps | <a href=https://github.com/woop/rebuff><img src="https://img.shields.io/github/stars/woop/rebuff?style=social" width=90/></a> | <a href=https://pypi.org/project/rebuff><img src="https://img.shields.io/pypi/dw/rebuff" width=150/></a> |
 | [Microsoft Guidance](https://github.com/microsoft/guidance) | A guidance language for controlling LLMs, providing a syntax for architecting LLM workflows | <a href=https://github.com/microsoft/guidance><img src="https://img.shields.io/github/stars/microsoft/guidance?style=social" width=90/></a> | <a href=https://pypi.org/project/guidance><img src="https://img.shields.io/pypi/dw/guidance" width=150/></a> |
 | [LMQL](https://lmql.ai/) | An open-source programming language and platform for language model interaction | <a href=https://github.com/eth-sri/lmql><img src="https://img.shields.io/github/stars/eth-sri/lmql?style=social" width=90/></a> | <a href=https://pypi.org/project/lmql><img src="https://img.shields.io/pypi/dw/lmql" width=150/></a> |
-| [Outlines](https://outlines-dev.github.io/outlines/) | Helps developers guide text generation to build robust interfaces with external systems and guarantee that outputs match a regex or JSON schema. | <a href=https://github.com/outlines-dev/outlines><img src="https://img.shields.io/github/stars/outlines-dev/outlines?style=social" width=90/></a> | <a href=https://pypi.org/project/outlines><img src="https://img.shields.io/pypi/dw/outlines" width=150/></a> |
+| [Outlines](https://outlines-dev.github.io/outlines/) | A tool for helping developers guide text generation to build robust interfaces with external systems and guarantee that outputs match a regex or JSON schema | <a href=https://github.com/outlines-dev/outlines><img src="https://img.shields.io/github/stars/outlines-dev/outlines?style=social" width=90/></a> | <a href=https://pypi.org/project/outlines><img src="https://img.shields.io/pypi/dw/outlines" width=150/></a> |
 
 <p style="text-align: right;"><a href="#table-of-contents">^ Back to Contents ^</a></p>
 
 ### LLM APIs (proprietary)
 | Name (site) | Description | Github | Pip Installs |
 |------------|------------|------------|------------|
-| [OpenAI](https://openai.com) | Provide many leading LLMs, including the GPT-3.5 and GPT-4 families. | N/A | <a href=https://pypi.org/project/openai><img src="https://img.shields.io/pypi/dw/openai" width=150/></a> |
-| [Anthropic](https://anthropic.com) | Developer of Claude, an AI assistant based on Anthropic’s research  | N/A | <a href=https://pypi.org/project/anthropic><img src="https://img.shields.io/pypi/dw/anthropic" width=150/></a> |
-| [Cohere AI](https://docs.cohere.com/docs/embeddings) | LLM vendor with particular focus on embeddings for semantic search, topic clustering, and vertical applications | <a href=https://github.com/cohere-ai/notebooks><img src="https://img.shields.io/github/stars/cohere-ai/notebooks?style=social" width=90/></a> | <a href=https://pypi.org/project/cohere><img src="https://img.shields.io/pypi/dw/cohere" width=150/></a> |
+| [OpenAI](https://openai.com) | A company providing many leading LLMs, including the GPT-3.5 and GPT-4 families | N/A | <a href=https://pypi.org/project/openai><img src="https://img.shields.io/pypi/dw/openai" width=150/></a> |
+| [Anthropic](https://anthropic.com) | The developer of Claude, an AI assistant based on Anthropic’s research  | N/A | <a href=https://pypi.org/project/anthropic><img src="https://img.shields.io/pypi/dw/anthropic" width=150/></a> |
+| [Cohere AI](https://docs.cohere.com/docs/embeddings) | An LLM vendor with particular focus on embeddings for semantic search, topic clustering, and vertical applications | <a href=https://github.com/cohere-ai/notebooks><img src="https://img.shields.io/github/stars/cohere-ai/notebooks?style=social" width=90/></a> | <a href=https://pypi.org/project/cohere><img src="https://img.shields.io/pypi/dw/cohere" width=150/></a> |
 
 <p style="text-align: right;"><a href="#table-of-contents">^ Back to Contents ^</a></p>
 
@@ -161,32 +161,32 @@ We also included [Perplexity and ChatGPT prompts](#formatting-prompt-templates) 
 ### App Hosting Platforms
 | Name (site) | Description |
 |------------|------------|
-| [Vercel](https://vercel.com/) | A cloud platform designed for front-end engineers, built with first-class support for LLM apps. |
-| [Netlify](https://www.netlify.com/) | An enterprise cloud computing company that offers a development platform for web applications and dynamic websites. |
-| [Steamship](https://steamship.com/) | An SDK and hosting platform for AI agents and tools, both a package manager and package hosting service for AI. |
-| [Streamlit](https://streamlit.io/) | An open-source Python library designed for creating and sharing custom web apps for machine learning and data science. |
-| [Modal](https://modal.com) | A platform that enables running distributed applications using the modal Python package. | 
+| [Vercel](https://vercel.com/) | A cloud platform designed for front-end engineers, built with first-class support for LLM apps |
+| [Netlify](https://www.netlify.com/) | An enterprise cloud computing company that offers a development platform for web applications and dynamic websites |
+| [Steamship](https://steamship.com/) | An SDK and hosting platform for AI agents and tools, both a package manager and package hosting service for AI |
+| [Streamlit](https://streamlit.io/) | An open-source Python library designed for creating and sharing custom web apps for ML and data science |
+| [Modal](https://modal.com) | A platform that enables running distributed applications using the modal Python package | 
 
 <p style="text-align: right;"><a href="#table-of-contents">^ Back to Contents ^</a></p>
 
 ### Cloud Providers
 | Name (site) | Description |
 |------------|------------|
-| [Amazon Web Services](https://aws.amazon.com/) | A cloud computing platform, offering services from data centers globally. |
-| [Google Cloud Platform](https://cloud.google.com/) | A cloud computing platform, offering services from data centers globally. |
-| [Microsoft Azure](https://azure.microsoft.com/) | A cloud computing platform, offering services from data centers globally. |
-| [CoreWeave](https://coreweave.com/) | A specialized cloud provider that delivers GPUs on top of flexible deployment infrastructure. |
+| [Amazon Web Services](https://aws.amazon.com/) | A cloud computing platform, offering services from data centers globally |
+| [Google Cloud Platform](https://cloud.google.com/) | A cloud computing platform, offering services from data centers globally |
+| [Microsoft Azure](https://azure.microsoft.com/) | A cloud computing platform, offering services from data centers globally |
+| [CoreWeave](https://coreweave.com/) | A specialized cloud provider that delivers GPUs on top of flexible deployment infrastructure |
 
 <p style="text-align: right;"><a href="#table-of-contents">^ Back to Contents ^</a></p>
 
 ### Opinionated Clouds
 | Name (site) | Description |
 |------------|------------|
-| [Databricks (MosaicML)](https://databricks.com/) | Databricks acquired Mosaic ML in 2023, along with its tooling and platform for efficient pre-trainining, fine-tuning and inferencing LLMs. |  
-| [Anyscale](https://anyscale.com/) | A fully managed compute platform that enables the development, deployment, and management of Ray (Python) apps. |
-| [Modal](https://modal.com) | A platform that eables running distributed applications using the Modal Python package. | 
-| [Runpod](https://runpod.io/) | A cloud computing platform designed for AI and machine learning applications. |
-| [OctoML](https://octoml.ai/) | A compute service that allows users to run, tune, and scale generative models. |
+| [Databricks (MosaicML)](https://databricks.com/) | Databricks acquired Mosaic ML in 2023, along with its tooling and platform for efficient pre-trainining, fine-tuning and inferencing LLMs |  
+| [Anyscale](https://anyscale.com/) | A fully managed compute platform that enables the development, deployment, and management of Ray (Python) apps |
+| [Modal](https://modal.com) | A platform that eables running distributed applications using the Modal Python package | 
+| [Runpod](https://runpod.io/) | A cloud computing platform designed for AI and ML applications |
+| [OctoML](https://octoml.ai/) | A compute service that allows users to run, tune, and scale generative models |
 
 
 <p style="text-align: right;"><a href="#table-of-contents">^ Back to Contents ^</a></p>
