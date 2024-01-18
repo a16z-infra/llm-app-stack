@@ -200,6 +200,7 @@ We also included [Perplexity and ChatGPT prompts](#formatting-prompt-templates) 
 We were able to partialy automate this - particularly finding Github and PyPI links - using this [Perplexity search prompt](https://github.com/a16z-infra/llm-app-stack/blob/main/table_construction_prompts/prompt_1_search.txt). It worked roughly ~75% of the time and could handle ~3 projects at a time, pulling data from 20-30 sources in each iteration. 
 
 Once you have the data you would like to add, if you don't want deal with the markdown formatting here, it is easy to correctly format using a tool like [Cursor](https://cursor.sh/). See the prompt below that works as an inline edit, just make sure you highlight 4-5 previous examples so Cursor can infer the format itself:
+
 <img width="838" alt="image" src="https://github.com/a16z-infra/llm-app-stack/assets/57970926/0518ab5e-82d8-4143-acd8-035ba1fd7a7d">
 
 
