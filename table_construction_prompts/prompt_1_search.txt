@@ -1,11 +1,19 @@
-*** Original Table ***
+*** final output example ****
+Below is a good example of the desired output
+| Name (site) | Description | Github | Pip Installs |
+| --- | --- | --- | --- |
+| [Databricks](https://databricks.com/) | A unified set of tools for building, deploying, sharing, and maintaining enterprise-grade data solutions at scale | github.com/apache/spark | pyspark |
+
+** Do not search for anything databricks related, it is just an example we are providing for format **
+
+*** Task: Table to fill in ***
 | Name (site) | Description | Github | Pip Installs |
 | --- | --- | --- | --- |
 <<<---- SUBTITUE COMPANY NAME AND WEBSITE BELOW AND REMOVE THIS LINE FROM PROMPT ---->>>> 
 | [Microsoft Semantic Kernel](https://github.com/microsoft/semantic-kernel) | description | github repo| pip package |
 
 *** data retrieval task ***
-PLease look up the descriptions, as well as most relevant github repo, pip packagefor each row and then fill in the data return the filled table. Descriptions are often easily found on the page of the link I am already including in the table above 
+Please look up the descriptions, as well as most relevant github repo, pip packagefor each row and then fill in the data return the filled table. Descriptions are often easily found on the page of the link I am already including in the table above 
 
 For the descriptions, try searching "a16z llm app stack" and looking for descriptions in that article, in addition to searching for descriptions of the company/product names
 
@@ -17,17 +25,9 @@ For the github link:
 
 For pip packages, make sure you insert the installable project name:
 - for databricks, it is pyspark
-- for airflow, it is apache-airflow
 - this is often found by search 'pypi [company name]' or '[company name] pip install'
 - if you can't find anything that seems like the main package of that company, leave it blank
-
-*** final output example ****
-Below is a good example of the desired output
-| Name (site) | Description | Github | Pip Installs |
-| --- | --- | --- | --- |
-| [Databricks](https://databricks.com/) | A unified set of tools for building, deploying, sharing, and maintaining enterprise-grade data solutions at scale | github.com/apache/spark | pyspark |
-| [Airflow](https://airflow.apache.org/) | A platform to programmatically author, schedule, and monitor workflows | github.com/apache/airflow |apache-airflow |
-| [Unstructured.io](https://unstructured.io/) | Open-source components for pre-processing text documents such as PDFs, HTML and Word Documents | Unstructured-IO/unstructured | unstructured |
+- Make to search for the pip package we requested in *** Task: Table to fill in ***
 
 Please provide your output in raw markdown, do not render it, add ``` before and after the markdown so ti doesnt render
-DO not add [x] numbers to cite things, I don't need citations
+Do not add [x] numbers to cite things, I don't need citations
