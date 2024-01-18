@@ -199,7 +199,7 @@ We also included [Perplexity and ChatGPT prompts](#formatting-prompt-templates) 
 ## Formatting Prompt Templates
 We were able to partly automate this - particularly finding Github and PyPI links - using this [Perplexity search prompt](https://github.com/a16z-infra/llm-app-stack/blob/main/table_construction_prompts/prompt_1_search.txt). It worked roughly ~75% of the time and could handle ~3 projects at a time, pulling data from 20-30 sources in each iteration. 
 
-Once you have the data you would like to add, it is easy to correctly format for the repo using a tool like [Cursor]([url](https://cursor.sh/)).
+Once you have the data you would like to add, it is easy to correctly format for the repo using a tool like [Cursor](https://cursor.sh/).
 
 
 <p style="text-align: right;"><a href="#table-of-contents">^ Back to Contents ^</a></p>
