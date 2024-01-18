@@ -1,31 +1,18 @@
-*** ORIGINAL TABLE FOR TASK ***
-| Name (site) | Description | Github | Pip Installs |
-| --- | --- | --- | --- |
-{{{{---- 
-SUBTITUE INFORMATION BELOW AND REMOVE THESE LINES FROM PROMPT 
-| [Name](Landing page) | [Description] | [github repo url] | [pip package name] |
----->}}}}
+*** EXAMPLE BELOW, USE WITHIN INLINE EDITING TOOL IN CURSOR.SH *** 
 
-Please convert the original table above similar to how the example original table is converted below.
+Add Guardrails AI to this markdown table, with the following information:
 
-*** EXAMPLE ORIGINAL TABLE ***
-| Name (site) | Description | Github | Pip Installs |
-| --- | --- | --- | --- |
-| [Databricks](https://databricks.com/) | A unified set of tools for building, deploying, sharing, and maintaining enterprise-grade data solutions at scale | github.com/apache/spark | pyspark |
-| [Airflow](https://airflow.apache.org/) | A platform to programmatically author, schedule, and monitor workflows | github.com/apache/airflow |apache-airflow |
-| [Unstructured.io](https://unstructured.io/) | Open-source components for pre-processing text documents such as PDFs, HTML and Word Documents | Unstructured-IO/unstructured | unstructured |
+Name: 
+Guardrails AI
 
-*** EXAMPLE OUTPUT TABLE ***
-| Name (site) | Description | Github | Pip Installs |
-| --- | --- | --- | --- |
-| [Databricks](https://databricks.com/) | A unified set of tools for building, deploying, sharing, and maintaining enterprise-grade data solutions at scale | <a href=https://github.com/apache/spark><img src="https://img.shields.io/github/stars/apache/spark?style=social" width=90/></a> | <a href=https://pypi.org/project/pyspark><img src="https://img.shields.io/pypi/dw/pyspark" width=150/></a> |
-| [Airflow](https://airflow.apache.org/) | A platform to programmatically author, schedule, and monitor workflows | <a href=https://github.com/apache/airflow><img src="https://img.shields.io/github/stars/apache/airflow?style=social" width=90/></a> | <a href=https://pypi.org/project/apache-airflow><img src="https://img.shields.io/pypi/dw/apache-airflow" width=150/></a> |
-| [Unstructured.io](https://unstructured.io/) | Open-source components for pre-processing text documents such as PDFs, HTML and Word Documents | <a href=https://github.com/Unstructured-IO/unstructured><img src="https://img.shields.io/github/stars/Unstructured-IO/unstructured?style=social" width=90/></a> | <a href=https://pypi.org/project/unstructured><img src="https://img.shields.io/pypi/dw/unstructured" width=150/></a> |
+Link: 
+https://shreyar.github.io/guardrails/ 
 
-For the github part use the following markdown:
-<a href=https://github.com/{org_name/repo_name}><img src="https://img.shields.io/github/stars/{org_name/repo_name}?style=social" width=90/></a>
+Description: 
+An open-source Python package for specifying structure and type, validating, and correcting the outputs of LLMs 
 
-For the pip install part use the following html:
-<a href=https://pypi.org/project/{pip package}><img src="https://img.shields.io/pypi/dw/{pip package}" width=150/></a> |
+Github repo base URL: 
+https://github.com/ShreyaR/guardrails
 
-If something is empty then put 'N/A'
+Pip package name:
+guardrails-ai
