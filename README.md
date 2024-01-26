@@ -41,6 +41,7 @@ We also included [Perplexity and Cursor.sh prompts](#formatting-prompt-templates
 | [Unstructured.io](https://unstructured.io/) | Open-source components for pre-processing documents such as PDFs, HTML, and Word documents for usage with LLM apps | <a href=https://github.com/Unstructured-IO/unstructured><img src="https://img.shields.io/github/stars/Unstructured-IO/unstructured?style=social" width=90/></a> | <a href=https://pypi.org/project/unstructured><img src="https://img.shields.io/pypi/dw/unstructured" width=150/></a> |
 | [Fivetran](https://www.fivetran.com/) | A platform that extracts, loads, and transforms data from various sources for analytics, AI, and operations | N/A | <a href=https://pypi.org/project/fivetran><img src="https://img.shields.io/pypi/dw/fivetran" width=150/></a> |
 | [Airbyte](https://www.airbyte.com/) | An open-source data integration engine that helps consolidate data in data warehouses, lakes, and databases | <a href=https://github.com/airbytehq/airbyte><img src="https://img.shields.io/github/stars/airbytehq/airbyte?style=social" width=90/></a> | <a href=https://pypi.org/project/airbyte-cdk><img src="https://img.shields.io/pypi/dw/airbyte-cdk" width=150/></a> |
+| [Anyscale](https://www.anyscale.com/) | An AI compute platform that allows developers to scale data ingest, preprocessing, embedding, and inference computations using Ray | <a href=https://github.com/ray-project/ray><img src="https://img.shields.io/github/stars/ray-project/ray?style=social" width=90/></a> | <a href=https://pypi.org/project/ray><img src="https://img.shields.io/pypi/dw/ray" width=150/></a> |
 
 <p style="text-align: right;"><a href="#table-of-contents">^ Back to Contents ^</a></p>
 
@@ -156,6 +157,7 @@ We also included [Perplexity and Cursor.sh prompts](#formatting-prompt-templates
 |------------|------------|------------|------------|
 | [Hugging Face](https://huggingface.co/) | A hub for open-source AI models and inference endpoints, including leading base LLMs and LoRAs/fine-tunes | <a href=https://github.com/huggingface/transformers><img src="https://img.shields.io/github/stars/huggingface/transformers?style=social" width=90/></a> | <a href=https://pypi.org/project/transformers><img src="https://img.shields.io/pypi/dw/transformers" width=150/></a> |
 | [Replicate](https://replicate.com/) | An AI hosting platform and model inference hub that allows software developers to integrate AI models into their apps | <a href=https://github.com/replicate/cog><img src="https://img.shields.io/github/stars/replicate/cog?style=social" width=90/></a> | <a href=https://pypi.org/project/replicate><img src="https://img.shields.io/pypi/dw/replicate" width=150/></a> |
+| [Anyscale](https://www.anyscale.com/) | An AI API and compute platform that allows developers to scale inference, training, and embedding computations with any model using Ray | <a href=https://github.com/ray-project/ray><img src="https://img.shields.io/github/stars/ray-project/ray?style=social" width=90/></a> | <a href=https://pypi.org/project/ray><img src="https://img.shields.io/pypi/dw/ray" width=150/></a> |
 
 <p style="text-align: right;"><a href="#table-of-contents">^ Back to Contents ^</a></p>
 
@@ -184,7 +186,7 @@ We also included [Perplexity and Cursor.sh prompts](#formatting-prompt-templates
 | Name (site) | Description |
 |------------|------------|
 | [Databricks (MosaicML)](https://databricks.com/) | Databricks acquired Mosaic ML in 2023, along with its tooling and platform for efficient pre-trainining, fine-tuning and inferencing LLMs |  
-| [Anyscale](https://anyscale.com/) | A fully managed compute platform that enables the development, deployment, and management of Ray (Python) apps |
+| [Anyscale](https://anyscale.com/) | An AI compute platform that enables developers to scale inference, training, and embedding computations with any model using Ray |
 | [Modal](https://modal.com) | A platform that eables running distributed applications using the Modal Python package | 
 | [Runpod](https://runpod.io/) | A cloud computing platform designed for AI and ML applications |
 | [OctoML](https://octoml.ai/) | A compute service that allows users to run, tune, and scale generative models |
