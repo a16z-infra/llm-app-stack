@@ -19,7 +19,7 @@ We also included [Perplexity and Cursor.sh prompts](#formatting-prompt-templates
 4. [Playgrounds](#playgrounds)
 5. [Orchestrators](#orchestrators)
 6. [APIs / Plugins](#apis--plugins)
-7. [LLM Caches](#llm-cache)
+7. [LLM Caches](#llm-caches)
 8. [Logging / Monitoring / Eval](#logging--monitoring--eval)
 9. [Validators](#validators)
 10. [LLM APIs (proprietary)](#llm-apis-proprietary)
@@ -41,6 +41,7 @@ We also included [Perplexity and Cursor.sh prompts](#formatting-prompt-templates
 | [Unstructured.io](https://unstructured.io/) | Open-source components for pre-processing documents such as PDFs, HTML, and Word documents for usage with LLM apps | <a href=https://github.com/Unstructured-IO/unstructured><img src="https://img.shields.io/github/stars/Unstructured-IO/unstructured?style=social" width=90/></a> | <a href=https://pypi.org/project/unstructured><img src="https://img.shields.io/pypi/dw/unstructured" width=150/></a> |
 | [Fivetran](https://www.fivetran.com/) | A platform that extracts, loads, and transforms data from various sources for analytics, AI, and operations | N/A | <a href=https://pypi.org/project/fivetran><img src="https://img.shields.io/pypi/dw/fivetran" width=150/></a> |
 | [Airbyte](https://www.airbyte.com/) | An open-source data integration engine that helps consolidate data in data warehouses, lakes, and databases | <a href=https://github.com/airbytehq/airbyte><img src="https://img.shields.io/github/stars/airbytehq/airbyte?style=social" width=90/></a> | <a href=https://pypi.org/project/airbyte-cdk><img src="https://img.shields.io/pypi/dw/airbyte-cdk" width=150/></a> |
+| [Anyscale](https://www.anyscale.com/) | An AI compute platform that allows developers to scale data ingest, preprocessing, embedding, and inference computations using Ray | <a href=https://github.com/ray-project/ray><img src="https://img.shields.io/github/stars/ray-project/ray?style=social" width=90/></a> | <a href=https://pypi.org/project/ray><img src="https://img.shields.io/pypi/dw/ray" width=150/></a> |
 
 <p style="text-align: right;"><a href="#table-of-contents">^ Back to Contents ^</a></p>
 
@@ -128,6 +129,9 @@ We also included [Perplexity and Cursor.sh prompts](#formatting-prompt-templates
 | [Zenoml](https://zenoml.com/) | AI evaluation platform that enables data visualization, model performance analysis, and the creation of interactive reports for various data types | <a href=https://github.com/zeno-ml/zeno-build><img src="https://img.shields.io/github/stars/zeno-ml/zeno-build?style=social" width=90/></a> | <a href=https://pypi.org/project/zeno-client><img src="https://img.shields.io/pypi/dw/zeno-client" width=150/></a> |
 | [Baserun](https://baserun.ai/welcome) | Tools for model configuration, prompt playground, monitoring, and prototype workflow, as well as features for full visibility into LLM workflows and end-to-end testing | <a href=https://github.com/baserun-ai/baserun-py><img src="https://img.shields.io/github/stars/baserun-ai/baserun-py?style=social" width=90/></a> | <a href=https://pypi.org/project/baserun><img src="https://img.shields.io/pypi/dw/baserun" width=90/></a> |
 | [WhyLabs](https://whylabs.ai/) | AI Observability platform for ML and GenAI including LLM monitoring, guardrails and security | <a href=https://github.com/whylabs><img src="https://img.shields.io/github/stars/whylabs?style=social" width=90/></a> | <a href=https://pypi.org/project/whylabs-client><img src="https://img.shields.io/pypi/dw/whylabs-client" width=150/></a> |
+| [Log10](https://log10.io/) | AI-powered LLMOps platform that automatically optimizes prompts and models with built-in logging, debugging, metrics, feedback, evaluations and fine-tuning | <a href=https://github.com/log10-io/log10><img src="https://img.shields.io/github/stars/log10-io/log10?style=social" width=90/></a><br> | <a href=https://pypi.org/project/log10-io><img src="https://img.shields.io/pypi/dw/log10-io" width=150/></a><br><a href=https://pypi.org/project/llmeval><img src="https://img.shields.io/pypi/dw/llmeval" width=150/></a> |
+| [promptfoo](https://www.promptfoo.dev/) | Open-source LLM eval framework with support for model/prompt/RAG eval, dataset generation, local models, and self-hosting. | <a href=https://github.com/promptfoo/promptfoo><img src="https://img.shields.io/github/stars/promptfoo/promptfoo?style=social" width=90/></a> | <a href=https://www.npmjs.com/package/promptfoo><img src="https://img.shields.io/npm/dw/promptfoo" width=150/></a> (node/npm) |
+
 
 <p style="text-align: right;"><a href="#table-of-contents">^ Back to Contents ^</a></p>
 
@@ -157,6 +161,7 @@ We also included [Perplexity and Cursor.sh prompts](#formatting-prompt-templates
 |------------|------------|------------|------------|
 | [Hugging Face](https://huggingface.co/) | A hub for open-source AI models and inference endpoints, including leading base LLMs and LoRAs/fine-tunes | <a href=https://github.com/huggingface/transformers><img src="https://img.shields.io/github/stars/huggingface/transformers?style=social" width=90/></a> | <a href=https://pypi.org/project/transformers><img src="https://img.shields.io/pypi/dw/transformers" width=150/></a> |
 | [Replicate](https://replicate.com/) | An AI hosting platform and model inference hub that allows software developers to integrate AI models into their apps | <a href=https://github.com/replicate/cog><img src="https://img.shields.io/github/stars/replicate/cog?style=social" width=90/></a> | <a href=https://pypi.org/project/replicate><img src="https://img.shields.io/pypi/dw/replicate" width=150/></a> |
+| [Anyscale](https://www.anyscale.com/) | An AI API and compute platform that allows developers to scale inference, training, and embedding computations with any model using Ray | <a href=https://github.com/ray-project/ray><img src="https://img.shields.io/github/stars/ray-project/ray?style=social" width=90/></a> | <a href=https://pypi.org/project/ray><img src="https://img.shields.io/pypi/dw/ray" width=150/></a> |
 
 <p style="text-align: right;"><a href="#table-of-contents">^ Back to Contents ^</a></p>
 
@@ -185,11 +190,12 @@ We also included [Perplexity and Cursor.sh prompts](#formatting-prompt-templates
 | Name (site) | Description |
 |------------|------------|
 | [Databricks (MosaicML)](https://databricks.com/) | Databricks acquired Mosaic ML in 2023, along with its tooling and platform for efficient pre-trainining, fine-tuning and inferencing LLMs |  
-| [Anyscale](https://anyscale.com/) | A fully managed compute platform that enables the development, deployment, and management of Ray (Python) apps |
+| [Anyscale](https://anyscale.com/) | An AI compute platform that enables developers to scale inference, training, and embedding computations with any model using Ray |
 | [Modal](https://modal.com) | A platform that eables running distributed applications using the Modal Python package | 
 | [Runpod](https://runpod.io/) | A cloud computing platform designed for AI and ML applications |
 | [OctoML](https://octoml.ai/) | A compute service that allows users to run, tune, and scale generative models |
-
+| [Baseten](https://baseten.co/) | A inference service that allows users to deploy, serve, and scale custom and open-source models |
+| [E2B](https://github.com/e2b-dev/e2b) | Secure sandboxed cloud environments made for AI agents and AI apps |
 
 <p style="text-align: right;"><a href="#table-of-contents">^ Back to Contents ^</a></p>
 
