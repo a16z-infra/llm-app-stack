@@ -190,8 +190,8 @@ We also included [Perplexity and Cursor.sh prompts](#formatting-prompt-templates
 | [Modal](https://modal.com) | A platform that eables running distributed applications using the Modal Python package | 
 | [Runpod](https://runpod.io/) | A cloud computing platform designed for AI and ML applications |
 | [OctoML](https://octoml.ai/) | A compute service that allows users to run, tune, and scale generative models |
+| [Baseten](https://baseten.co/) | A inference service that allows users to deploy, serve, and scale custom and open-source models |
 | [E2B](https://github.com/e2b-dev/e2b) | Secure sandboxed cloud environments made for AI agents and AI apps |
-
 
 <p style="text-align: right;"><a href="#table-of-contents">^ Back to Contents ^</a></p>
 
