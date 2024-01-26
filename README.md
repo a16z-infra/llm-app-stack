@@ -19,7 +19,7 @@ We also included [Perplexity and Cursor.sh prompts](#formatting-prompt-templates
 4. [Playgrounds](#playgrounds)
 5. [Orchestrators](#orchestrators)
 6. [APIs / Plugins](#apis--plugins)
-7. [LLM Caches](#llm-cache)
+7. [LLM Caches](#llm-caches)
 8. [Logging / Monitoring / Eval](#logging--monitoring--eval)
 9. [Validators](#validators)
 10. [LLM APIs (proprietary)](#llm-apis-proprietary)
