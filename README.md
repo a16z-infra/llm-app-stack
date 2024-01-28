@@ -97,6 +97,7 @@ We also included [Perplexity and Cursor.sh prompts](#formatting-prompt-templates
 | [Wolfram Alpha API](https://wolframalpha.com/) | A web-based API providing computational and presentation capabilities for integration into various applications | N/A | <a href=https://pypi.org/project/wolframalpha><img src="https://img.shields.io/pypi/dw/wolframalpha" width=150/></a> |
 | [Zapier API AI Plugin](https://zapier.com/) | A plugin that allows you to connect 5,000+ apps and interact with them directly inside ChatGPT | N/A | N/A |
 
+
 <p style="text-align: right;"><a href="#table-of-contents">^ Back to Contents ^</a></p>
 
 ### LLM Caches
@@ -154,6 +155,7 @@ We also included [Perplexity and Cursor.sh prompts](#formatting-prompt-templates
 | [OpenAI](https://openai.com) | A company providing many leading LLMs, including the GPT-3.5 and GPT-4 families | N/A | <a href=https://pypi.org/project/openai><img src="https://img.shields.io/pypi/dw/openai" width=150/></a> |
 | [Anthropic](https://anthropic.com) | The developer of Claude, an AI assistant based on Anthropic’s research  | N/A | <a href=https://pypi.org/project/anthropic><img src="https://img.shields.io/pypi/dw/anthropic" width=150/></a> |
 | [Cohere AI](https://docs.cohere.com/docs/embeddings) | An LLM vendor with particular focus on embeddings for semantic search, topic clustering, and vertical applications | <a href=https://github.com/cohere-ai/notebooks><img src="https://img.shields.io/github/stars/cohere-ai/notebooks?style=social" width=90/></a> | <a href=https://pypi.org/project/cohere><img src="https://img.shields.io/pypi/dw/cohere" width=150/></a> |
+| [LLM](https://llm.datasette.io/en/stable/) | A CLI utility and Python library for interacting with Large Language Models, both via remote APIs and models that can be installed and run on your own machine. | <a href=https://github.com/simonw/llm><img src="https://img.shields.io/github/stars/simonw/llm?style=social" width=90/></a> | <a href=https://pypi.org/project/llm/><img src="https://img.shields.io/pypi/dw/llm" width=150/></a> |
 
 <p style="text-align: right;"><a href="#table-of-contents">^ Back to Contents ^</a></p>
 
@@ -163,6 +165,7 @@ We also included [Perplexity and Cursor.sh prompts](#formatting-prompt-templates
 | [Hugging Face](https://huggingface.co/) | A hub for open-source AI models and inference endpoints, including leading base LLMs and LoRAs/fine-tunes | <a href=https://github.com/huggingface/transformers><img src="https://img.shields.io/github/stars/huggingface/transformers?style=social" width=90/></a> | <a href=https://pypi.org/project/transformers><img src="https://img.shields.io/pypi/dw/transformers" width=150/></a> |
 | [Replicate](https://replicate.com/) | An AI hosting platform and model inference hub that allows software developers to integrate AI models into their apps | <a href=https://github.com/replicate/cog><img src="https://img.shields.io/github/stars/replicate/cog?style=social" width=90/></a> | <a href=https://pypi.org/project/replicate><img src="https://img.shields.io/pypi/dw/replicate" width=150/></a> |
 | [Anyscale](https://www.anyscale.com/) | An AI API and compute platform that allows developers to scale inference, training, and embedding computations with any model using Ray | <a href=https://github.com/ray-project/ray><img src="https://img.shields.io/github/stars/ray-project/ray?style=social" width=90/></a> | <a href=https://pypi.org/project/ray><img src="https://img.shields.io/pypi/dw/ray" width=150/></a> |
+| [GPT4ALL](https://gpt4all.io/index.html) | An ecosystem of open-source on-edge large language models. | <a href=https://github.com/nomic-ai/gpt4all><img src="https://img.shields.io/github/stars/nomic-ai/gpt4all?style=social" width=90/></a> | <a href=https://pypi.org/project/gpt4all/><img src="https://img.shields.io/pypi/dw/gpt4all" width=150/></a> |
 
 <p style="text-align: right;"><a href="#table-of-contents">^ Back to Contents ^</a></p>
 
