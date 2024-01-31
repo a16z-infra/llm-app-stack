@@ -13,20 +13,24 @@ We also included [Perplexity and Cursor.sh prompts](#formatting-prompt-templates
 
 ## Table of Contents
 
-1. [Data Pipelines](#data-pipelines)
-2. [Embedding Models](#embedding-models)
-3. [Vector Databases](#vector-databases)
-4. [Playgrounds](#playgrounds)
-5. [Orchestrators](#orchestrators)
-6. [APIs / Plugins](#apis--plugins)
-7. [LLM Caches](#llm-caches)
-8. [Logging / Monitoring / Eval](#logging--monitoring--eval)
-9. [Validators](#validators)
-10. [LLM APIs (proprietary)](#llm-apis-proprietary)
-11. [LLM APIs (open source)](#llm-apis-open-source)
-12. [App Hosting Platforms](#app-hosting-platforms)
-13. [Cloud Providers](#cloud-providers)
-14. [Opinionated Clouds](#opinionated-clouds)
+- [LLM App Stack](#llm-app-stack)
+  - [Table of Contents](#table-of-contents)
+  - [Project List](#project-list)
+    - [Data Pipelines](#data-pipelines)
+    - [Embedding Models](#embedding-models)
+    - [Vector Databases](#vector-databases)
+    - [Playgrounds](#playgrounds)
+    - [Orchestrators](#orchestrators)
+    - [APIs / Plugins](#apis--plugins)
+    - [LLM Caches](#llm-caches)
+    - [Logging / Monitoring / Eval](#logging--monitoring--eval)
+    - [Validators](#validators)
+    - [LLM APIs (proprietary)](#llm-apis-proprietary)
+    - [LLM APIs (open source)](#llm-apis-open-source)
+    - [App Hosting Platforms](#app-hosting-platforms)
+    - [Cloud Providers](#cloud-providers)
+    - [Opinionated Clouds](#opinionated-clouds)
+  - [Formatting Prompt Templates](#formatting-prompt-templates)
 
 
 
@@ -85,6 +89,7 @@ We also included [Perplexity and Cursor.sh prompts](#formatting-prompt-templates
 | [LlamaIndex](https://llamaindex.ai/) | A data framework for LLM applications to ingest, structure, and access private or domain-specific data | <a href=https://github.com/jerryjliu/llama_index><img src="https://img.shields.io/github/stars/jerryjliu/llama_index?style=social" width=90/></a> | <a href=https://pypi.org/project/llama-index><img src="https://img.shields.io/pypi/dw/llama-index" width=150/></a> |
 | [Autogen](https://microsoft.github.io/autogen/) | A framework for automating and streamlining LLM workflows using customizable, conversable agents for complex AI applications | <a href=https://github.com/microsoft/autogen><img src="https://img.shields.io/github/stars/microsoft/autogen?style=social" width=90/></a> | <a href=https://pypi.org/project/pyautogen><img src="https://img.shields.io/pypi/dw/pyautogen" width=150/></a> |
 | [Microsoft Semantic Kernel](https://github.com/microsoft/semantic-kernel) | A lightweight open-source orchestration SDK  | <a href=https://github.com/microsoft/semantic-kernel><img src="https://img.shields.io/github/stars/microsoft/semantic-kernel?style=social" width=90/></a> | <a href=https://pypi.org/project/semantic-kernel><img src="https://img.shields.io/pypi/dw/semantic-kernel" width=150/></a> |
+| [Haystack](https://haystack.deepset.ai/) | LLM orchestration framework to build customizable, production-ready LLM applications | <a href=https://github.com/deepset-ai/haystack><img src="https://img.shields.io/github/stars/deepset-ai/haystack?style=social" width=90/></a> | <a href=https://pypi.org/project/farm-haystack/><img src="https://img.shields.io/pypi/dw/farm-haystack" width=150/></a> |
 | [Vercel AI SDK](https://sdk.vercel.ai/docs) | An open-source library for developers to build streaming UIs in JavaScript and TypeScript | <a href=https://github.com/vercel/ai><img src="https://img.shields.io/github/stars/vercel-labs/ai?style=social" width=90/></a> | <a href=https://pypi.org/project/vercel-ai-sdk><img src="https://img.shields.io/npm/dw/ai" width=150/></a>(node/npm)|
 | [Vectara AI](https://vectara.com/) | A search and discovery platform for AI conversations utilizing your own data | <a href=https://github.com/vectara/vectara-ingest><img src="https://img.shields.io/github/stars/vectara/vectara-ingest?style=social" width=90/></a> | N/A |
 | [ChatGPT](https://chat.openai.com) | An AI chatbot that uses natural language processing to create humanlike conversational dialogue | N/A| N/A |
