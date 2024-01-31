@@ -13,24 +13,20 @@ We also included [Perplexity and Cursor.sh prompts](#formatting-prompt-templates
 
 ## Table of Contents
 
-- [LLM App Stack](#llm-app-stack)
-  - [Table of Contents](#table-of-contents)
-  - [Project List](#project-list)
-    - [Data Pipelines](#data-pipelines)
-    - [Embedding Models](#embedding-models)
-    - [Vector Databases](#vector-databases)
-    - [Playgrounds](#playgrounds)
-    - [Orchestrators](#orchestrators)
-    - [APIs / Plugins](#apis--plugins)
-    - [LLM Caches](#llm-caches)
-    - [Logging / Monitoring / Eval](#logging--monitoring--eval)
-    - [Validators](#validators)
-    - [LLM APIs (proprietary)](#llm-apis-proprietary)
-    - [LLM APIs (open source)](#llm-apis-open-source)
-    - [App Hosting Platforms](#app-hosting-platforms)
-    - [Cloud Providers](#cloud-providers)
-    - [Opinionated Clouds](#opinionated-clouds)
-  - [Formatting Prompt Templates](#formatting-prompt-templates)
+1. [Data Pipelines](#data-pipelines)
+2. [Embedding Models](#embedding-models)
+3. [Vector Databases](#vector-databases)
+4. [Playgrounds](#playgrounds)
+5. [Orchestrators](#orchestrators)
+6. [APIs / Plugins](#apis--plugins)
+7. [LLM Caches](#llm-caches)
+8. [Logging / Monitoring / Eval](#logging--monitoring--eval)
+9. [Validators](#validators)
+10. [LLM APIs (proprietary)](#llm-apis-proprietary)
+11. [LLM APIs (open source)](#llm-apis-open-source)
+12. [App Hosting Platforms](#app-hosting-platforms)
+13. [Cloud Providers](#cloud-providers)
+14. [Opinionated Clouds](#opinionated-clouds)
 
 
 
