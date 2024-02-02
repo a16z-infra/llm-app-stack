@@ -49,7 +49,7 @@ We also included [Perplexity and Cursor.sh prompts](#formatting-prompt-templates
 | Name (site) | Description | Github | Pip Installs |
 |------------|------------|------------|------------|
 | [OpenAI Ada Embedding 2](https://platform.openai.com/docs/guides/embeddings) | OpenAI's most popular embedding model for capturing semantic relationships in text | n/a | <a href=https://pypi.org/project/openai><img src="https://img.shields.io/pypi/dw/openai" width=150/></a> |
-| [Cohere AI](https://docs.cohere.com/docs/embeddings) | An independent commerical provider of LLMs, with particular focus on embeddings for semantic search, topic clustering, and vertical applications | <a href=https://github.com/cohere-ai/notebooks><img src="https://img.shields.io/github/stars/cohere-ai/notebooks?style=social" width=90/></a> | <a href=https://pypi.org/project/cohere><img src="https://img.shields.io/pypi/dw/cohere" width=150/></a> |
+| [Cohere AI](https://docs.cohere.com/docs/embeddings) | An independent commercial provider of LLMs, with particular focus on embeddings for semantic search, topic clustering, and vertical applications | <a href=https://github.com/cohere-ai/notebooks><img src="https://img.shields.io/github/stars/cohere-ai/notebooks?style=social" width=90/></a> | <a href=https://pypi.org/project/cohere><img src="https://img.shields.io/pypi/dw/cohere" width=150/></a> |
 | [Sentence Transformers](https://www.sbert.net/) | An open-source Python framework for sentence, text, and image embeddings | <a href=https://github.com/UKPLab/sentence-transformers><img src="https://img.shields.io/github/stars/UKPLab/sentence-transformers?style=social" width=90/></a> | <a href=https://pypi.org/project/sentence-transformers><img src="https://img.shields.io/pypi/dw/sentence-transformers" width=150/></a> |
 
 <p style="text-align: right;"><a href="#table-of-contents">^ Back to Contents ^</a></p>
@@ -198,12 +198,12 @@ We also included [Perplexity and Cursor.sh prompts](#formatting-prompt-templates
 ### Opinionated Clouds
 | Name (site) | Description |
 |------------|------------|
-| [Databricks (MosaicML)](https://databricks.com/) | Databricks acquired Mosaic ML in 2023, along with its tooling and platform for efficient pre-trainining, fine-tuning and inferencing LLMs |  
+| [Databricks (MosaicML)](https://databricks.com/) | Databricks acquired Mosaic ML in 2023, along with its tooling and platform for efficient pre-training, fine-tuning and inferencing LLMs |  
 | [Anyscale](https://anyscale.com/) | An AI compute platform that enables developers to scale inference, training, and embedding computations with any model using Ray |
-| [Modal](https://modal.com) | A platform that eables running distributed applications using the Modal Python package | 
+| [Modal](https://modal.com) | A platform that enables running distributed applications using the Modal Python package | 
 | [Runpod](https://runpod.io/) | A cloud computing platform designed for AI and ML applications |
 | [OctoML](https://octoml.ai/) | A compute service that allows users to run, tune, and scale generative models |
-| [Baseten](https://baseten.co/) | A inference service that allows users to deploy, serve, and scale custom and open-source models |
+| [Baseten](https://baseten.co/) | An inference service that allows users to deploy, serve, and scale custom and open-source models |
 | [E2B](https://github.com/e2b-dev/e2b) | Secure sandboxed cloud environments made for AI agents and AI apps |
 
 <p style="text-align: right;"><a href="#table-of-contents">^ Back to Contents ^</a></p>
@@ -219,7 +219,7 @@ We were able to partialy automate this - particularly finding Github and PyPI li
 <img width="709" alt="image" src="https://github.com/a16z-infra/llm-app-stack/assets/57970926/1e4e53af-22c5-4d65-8bd9-aca776e4e970">
 
 
-Once you have the data you would like to add, if you don't want deal with the markdown formatting here, it is easy to correctly format using a tool like [Cursor](https://cursor.sh/). 
+Once you have the data you would like to add, if you don't want to deal with the markdown formatting here, it is easy to correctly format using a tool like [Cursor](https://cursor.sh/). 
 
 See the prompt below that works as an inline edit, just make sure you highlight 4-5 previous examples so Cursor can infer the format itself:
 
