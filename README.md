@@ -26,7 +26,8 @@ We also included [Perplexity and Cursor.sh prompts](#formatting-prompt-templates
 11. [LLM APIs (open source)](#llm-apis-open-source)
 12. [App Hosting Platforms](#app-hosting-platforms)
 13. [Cloud Providers](#cloud-providers)
-14. [Opinionated Clouds](#opinionated-clouds)
+14. [Data Storage](#data-storage)
+15. [Opinionated Clouds](#opinionated-clouds)
 
 
 
@@ -194,6 +195,13 @@ We also included [Perplexity and Cursor.sh prompts](#formatting-prompt-templates
 | [Google Cloud Platform](https://cloud.google.com/) | A cloud computing platform, offering services from data centers globally |
 | [Microsoft Azure](https://azure.microsoft.com/) | A cloud computing platform, offering services from data centers globally |
 | [CoreWeave](https://coreweave.com/) | A specialized cloud provider that delivers GPUs on top of flexible deployment infrastructure |
+
+<p style="text-align: right;"><a href="#table-of-contents">^ Back to Contents ^</a></p>
+
+### Data Storage
+| Name (site) | Description | GitHub | 
+|------------|------------|------------|
+| [JuiceFS](https://juicefs.com/en/) | An open-source cloud-native distributed file system with high performance, commonly utilized in AI & machine learning for training, inference, model distribution, as well as in big data processing and analysis | <a href=https://github.com/juicedata/juicefs> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/juicedata/juicefs?style=social" width=90></a> |
 
 <p style="text-align: right;"><a href="#table-of-contents">^ Back to Contents ^</a></p>
 
