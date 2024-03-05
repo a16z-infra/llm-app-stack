@@ -199,9 +199,9 @@ We also included [Perplexity and Cursor.sh prompts](#formatting-prompt-templates
 <p style="text-align: right;"><a href="#table-of-contents">^ Back to Contents ^</a></p>
 
 ### Data Storage
-| Name (site) | Description |
-|------------|------------|
-| [JuiceFS](https://juicefs.com/en/) | An open-source cloud-native distributed file system with high performance, commonly utilized in AI & machine learning for training, inference, model distribution, as well as in big data processing and analysis |
+| Name (site) | Description | GitHub | 
+|------------|------------|------------|
+| [JuiceFS](https://juicefs.com/en/) | An open-source cloud-native distributed file system with high performance, commonly utilized in AI & machine learning for training, inference, model distribution, as well as in big data processing and analysis | <a href=https://github.com/juicedata/juicefs> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/juicedata/juicefs?style=social" width=90></a> |
 
 <p style="text-align: right;"><a href="#table-of-contents">^ Back to Contents ^</a></p>
 
