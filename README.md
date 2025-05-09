@@ -90,6 +90,7 @@ We also included [Perplexity and Cursor.sh prompts](#formatting-prompt-templates
 | [Vercel AI SDK](https://sdk.vercel.ai/docs) | An open-source library for developers to build streaming UIs in JavaScript and TypeScript | <a href=https://github.com/vercel/ai><img src="https://img.shields.io/github/stars/vercel-labs/ai?style=social" width=90/></a> | <a href=https://pypi.org/project/vercel-ai-sdk><img src="https://img.shields.io/npm/dw/ai" width=150/></a>(node/npm)|
 | [Vectara AI](https://vectara.com/) | A search and discovery platform for AI conversations utilizing your own data | <a href=https://github.com/vectara/vectara-ingest><img src="https://img.shields.io/github/stars/vectara/vectara-ingest?style=social" width=90/></a> | N/A |
 | [ChatGPT](https://chat.openai.com) | An AI chatbot that uses natural language processing to create humanlike conversational dialogue | N/A| N/A |
+| [TensorZero](https://www.tensorzero.com/) | An open-source framework unifying an LLM gateway, observability, optimization, evaluations, and experimentation. | <a href="https://github.com/tensorzero/tensorzero"><img src="https://img.shields.io/github/stars/tensorzero/tensorzero?style=social" width=90/></a> | <a href="https://pypi.org/project/tensorzero"><img src="https://img.shields.io/pypi/dw/tensorzero" width=150/></a> |
 
 <p style="text-align: right;"><a href="#table-of-contents">^ Back to Contents ^</a></p>
 
